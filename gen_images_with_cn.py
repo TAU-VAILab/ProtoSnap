@@ -60,6 +60,7 @@ def create_control(proto, args, output_path, idx):
 def create_all_controls(proto, output_path, args):
     count = 0
     controls_output = output_path / "controls"
+    controls_output.mkdir(exist_ok=True)
     while count < args.num_of_samples:
         res = create_control(proto, args, controls_output, count)
         if res:
@@ -68,18 +69,19 @@ def create_all_controls(proto, output_path, args):
     return controls_output
 
 
-def generate_images(args, controls_path):
+def generate_images(args, controls_dir):
     controlnet = ControlNetModel.from_pretrained(args.cn_checkpoint, torch_dtype=torch.float16)
     pipe = StableDiffusionControlNetPipeline.from_pretrained(args.sd_checkpoint,
                                                              controlnet=controlnet,
                                                              torch_dtype=torch.float16,
                                                              safety_checker=None).to('cuda')
-    control_paths = controls_path.glob("*png")
+    control_paths = controls_dir.glob("*png")
     controls = [Image.open(path).convert("RGB").resize((512, 512)) for path in control_paths]
     assert len(controls) == args.num_of_samples
 
     prompt = "cuneiform single ancient icon"
-    images_path = control_paths.parent / "images"
+    images_path = controls_dir.parent / "images"
+    images_path.mkdir(exist_ok=True)
     for i in range(0, len(controls), 10):
         images = pipe([prompt] * 10, image=controls[i: i + 10]).images
         for j, img in enumerate(images):
@@ -90,7 +92,11 @@ def main():
     args = get_opts()
     proto = Prototype(args, args.sign_name)
     output_path = Path(args.output_path) / args.sign_name
-    output_path.mkdir(exist_ok=True)
+    output_path.mkdir(exist_ok=True, parents=True)
 
     controls_output = create_all_controls(proto, output_path, args)
     generate_images(args, controls_output)
+
+if __name__ == '__main__':
+    main()
+
