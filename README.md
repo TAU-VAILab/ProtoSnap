@@ -2,14 +2,14 @@
 
 **[project page]() | [paper]()**
 
-[Rachel Mikulinsky](https://www.linkedin.com/in/rachel-mikulinsky-3a099411b/)¹, 
-[Morris Alper](https://morrisalp.github.io/)¹, 
-[Shai Gordin](https://cris.ariel.ac.il/en/persons/shai-gordin-2)²,
-[Enrique Jimenez],
-[Yoram Cohen](https://english.tau.ac.il/profile/ycohen1)¹,
-[Hadar Averbuch-Elor](https://www.elor.sites.tau.ac.il/)¹
+[Rachel Mikulinsky](https://www.linkedin.com/in/rachel-mikulinsky-3a099411b/)<sup>1</sup>, 
+[Morris Alper](https://morrisalp.github.io/)<sup>1</sup>, 
+[Shai Gordin](https://cris.ariel.ac.il/en/persons/shai-gordin-2)<sup>2</sup>,
+[Enrique Jimenez](https://lmu-munich.academia.edu/EnriqueJiménez)<sup>3</sup>,
+[Yoram Cohen](https://english.tau.ac.il/profile/ycohen1)<sup>1</sup>,
+[Hadar Averbuch-Elor](https://www.elor.sites.tau.ac.il/)<sup>1</sup>
 
-*¹[Tel Aviv University](https://english.tau.ac.il/), ²[Ariel University](https://cris.ariel.ac.il/en/)
+*<sup>1</sup>[Tel Aviv University](https://english.tau.ac.il/), <sup>2</sup>[Ariel University](https://cris.ariel.ac.il/en/), <sup>3</sup>[LMU](https://www.lmu.de/en/)
 
 This is the official implementation of ProtoSnap, a method for aligning a cuneiform prototype and a corresponding sign image.
 
