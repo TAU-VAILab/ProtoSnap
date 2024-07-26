@@ -6,7 +6,7 @@
 [Morris Alper](https://morrisalp.github.io/)¹, 
 [Shai Gordin](https://cris.ariel.ac.il/en/persons/shai-gordin-2)²,
 [Enrique Jimenez],
-[Yoram Cohen],
+[Yoram Cohen](https://english.tau.ac.il/profile/ycohen1)¹,
 [Hadar Averbuch-Elor](https://www.elor.sites.tau.ac.il/)¹
 
 *¹[Tel Aviv University](https://english.tau.ac.il/), ²[Ariel University](https://cris.ariel.ac.il/en/)
