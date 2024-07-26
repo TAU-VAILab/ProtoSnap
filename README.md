@@ -4,12 +4,12 @@
 
 [Rachel Mikulinsky](https://www.linkedin.com/in/rachel-mikulinsky-3a099411b/)¹, 
 [Morris Alper](https://morrisalp.github.io/)¹, 
-[Shai Gordin],
+[Shai Gordin](https://cris.ariel.ac.il/en/persons/shai-gordin-2)²,
 [Enrique Jimenez],
 [Yoram Cohen],
 [Hadar Averbuch-Elor](https://www.elor.sites.tau.ac.il/)¹
 
-*¹[Tel Aviv University](https://english.tau.ac.il/),
+*¹[Tel Aviv University](https://english.tau.ac.il/), ²[Ariel University](https://cris.ariel.ac.il/en/)
 
 This is the official implementation of ProtoSnap, a method for aligning a cuneiform prototype and a corresponding sign image.
 
