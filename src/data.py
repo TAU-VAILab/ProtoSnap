@@ -5,33 +5,23 @@ import torch
 import matplotlib.pyplot as plt
 import re
 from pathlib import Path
-import torch.nn.functional as F
-import cv2
 
 from src.utils import get_proto_img, COLORS
 from src.geometry import GroupedPoints
 from src.dift import DiftWrapper
 
 
-class Data:
-    def __init__(self, args, dift):
-        self.prompt = args.prompt
-        self.img_size = args.img_size
+class Prototype:
 
-        target_image_path = Path(args.target_image_path)
-        if target_image_path.is_dir():
-            target_image_path = target_image_path / f"{self.prompt}.png"
-        self.target = self._load_target(target_image_path)
-        self.name = f"{target_image_path.stem}_{args.suffix}"
-
+    def __init__(self, args, prompt):
         df = pd.read_csv(args.df_filename)
-        proto, cs, rs, orig_w, orig_h = get_proto_img(args, self.prompt, df)
+        proto, cs, rs, orig_w, orig_h = get_proto_img(args, prompt, df)
 
-        unicode = df[df['name'] == self.prompt]['hex'].values[0]
+        unicode = df[df['name'] == prompt]['hex'].values[0]
         points_fn = Path(args.con_dir) / f"{unicode}_adf.csv"
         points_df = pd.read_csv(points_fn)
-        points_df.x = points_df.x.apply(self.global_adjustment, args=(cs, (self.img_size / orig_w)))
-        points_df.y = points_df.y.apply(self.global_adjustment, args=(rs, (self.img_size / orig_h)))
+        points_df.x = points_df.x.apply(self.global_adjustment, args=(cs, (args.img_size / orig_w)))
+        points_df.y = points_df.y.apply(self.global_adjustment, args=(rs, (args.img_size / orig_h)))
         con_df = pd.read_csv(Path(args.con_dir) / f"{unicode}_con.csv")
 
         self.points = [(int(row.x), int(row.y)) for _, row in points_df.iterrows()]
@@ -39,30 +29,6 @@ class Data:
             self.get_connectivity(points_df, con_df, line_weighting=args.line_weighting)
 
         self.labels = [int(row.label.split()[1]) for _, row in points_df.iterrows()]
-        self.proto = proto
-        self.scatter_size = args.scatter_size
-        self.line_alpha = args.line_alpha
-
-        if dift is not None:
-            dift_wrapper = DiftWrapper(args, dift)
-            self.sim_tensor = dift_wrapper.get_similaritity_tensor(self.proto, self.target)
-            # H, W, H, W
-            
-            sim_res = self.sim_tensor.shape[0]
-            mask = np.uint8(self.proto.resize((sim_res, sim_res)).convert('L')) != 255
-            deltas = self.sim_tensor[mask, :, :].mean(dim=0) - self.sim_tensor[~mask, :, :].mean(dim=0)
-            deltas -= deltas.min()
-            deltas /= deltas.max()
-            clahe = cv2.createCLAHE(clipLimit=10.0, tileGridSize=(2, 2))
-            eq = clahe.apply(np.uint8(deltas.cpu() * 255)) # histogram-equalized
-            eq = eq - eq.mean()
-            eq = eq.clip(min=0.)
-            eq = eq / eq.max()
-            self.saliency_mask = torch.tensor(eq,
-                    dtype=torch.float32, device=self.sim_tensor.device) # H, W
-
-    def _load_target(self, target_images_path):
-        return Image.open(target_images_path).resize((self.img_size, self.img_size))
 
     @staticmethod
     def global_adjustment(value, start, scale, padding=10):
@@ -70,25 +36,6 @@ class Data:
         value += padding
         value *= scale
         return value
-
-    @staticmethod
-    def _find_head_center(label_points, label_cons):
-        assert len(label_cons) == len(label_points)
-        # removing the tail point
-        if len(label_cons) == 4:
-            con_flatten = label_cons.i.to_list() + label_cons.j.to_list()
-            con_counts = {i: con_flatten.count(i) for i in range(len(label_cons))}
-            con_counts = sorted(con_counts, key=con_counts.get)
-            tail = con_counts[0]
-            center = con_counts[-1]
-            label_points = label_points.drop(tail)
-        else:
-            assert len(label_cons) == 3
-            center = 0
-        base_points = label_points.loc[[i for i in label_points.index if i != center]]
-        center = label_points.loc[center]
-        mid_base_x, mid_base_y = np.mean(base_points.x), np.mean(base_points.y)
-        return np.mean([mid_base_x, center.x]), np.mean([mid_base_y, center.y])
 
     @staticmethod
     def get_connectivity(points_df, con_df, line_weighting=1.0):
@@ -116,6 +63,57 @@ class Data:
         connectivity_weights = [[y / mean_weight for y in x] for x in connectivity_weights]
         return connectivity, connectivity_weights
 
+
+class Data:
+    def __init__(self, args, dift):
+        self.prompt = args.prompt
+        self.img_size = args.img_size
+
+        target_image_path = Path(args.target_image_path)
+        if target_image_path.is_dir():
+            target_image_path = target_image_path / f"{self.prompt}.png"
+        self.target = self._load_target(target_image_path)
+        self.name = f"{target_image_path.stem}_{args.suffix}"
+
+        df = pd.read_csv(args.df_filename)
+        proto, cs, rs, orig_w, orig_h = get_proto_img(args, self.prompt, df)
+
+        prototype = Prototype(args, args.prompt)
+        self.points, self.connectivity, self.connectivity_weights, self.labels = \
+            prototype.points, prototype.connectivity, prototype.connectivity_weights, prototype.labels
+
+        self.proto = proto
+        self.scatter_size = args.scatter_size
+        self.line_alpha = args.line_alpha
+
+        if dift is not None:
+            dift_wrapper = DiftWrapper(args, dift)
+            self.saliency_mask = dift_wrapper.get_saliency_mask(self.target)  # H, W
+            self.sim_tensor = dift_wrapper.get_similaritity_tensor(self.proto, self.target)
+            # H, W, H, W
+
+    def _load_target(self, target_images_path):
+        return Image.open(target_images_path).resize((self.img_size, self.img_size))
+
+    @staticmethod
+    def _find_head_center(label_points, label_cons):
+        assert len(label_cons) == len(label_points)
+        # removing the tail point
+        if len(label_cons) == 4:
+            con_flatten = label_cons.i.to_list() + label_cons.j.to_list()
+            con_counts = {i: con_flatten.count(i) for i in range(len(label_cons))}
+            con_counts = sorted(con_counts, key=con_counts.get)
+            tail = con_counts[0]
+            center = con_counts[-1]
+            label_points = label_points.drop(tail)
+        else:
+            assert len(label_cons) == 3
+            center = 0
+        base_points = label_points.loc[[i for i in label_points.index if i != center]]
+        center = label_points.loc[center]
+        mid_base_x, mid_base_y = np.mean(base_points.x), np.mean(base_points.y)
+        return np.mean([mid_base_x, center.x]), np.mean([mid_base_y, center.y])
+
     @torch.no_grad()
     def visualize(self, global_transform, stroke_transforms, itr_num, output_path):
 
@@ -123,10 +121,6 @@ class Data:
         src_points, dst_points, dst_points_global, dst_points_init = \
             gpoints.get_viz_points(global_transform, stroke_transforms)
         saliency_mask = self.saliency_mask.cpu()
-        # for visualization: needs to be right size
-        saliency_mask = F.interpolate(saliency_mask[None, None],
-                        size=(self.img_size, self.img_size),
-                        mode='bilinear', align_corners=True)[0, 0]
 
         fig, axs = plt.subplots(3, 3, figsize=(8, 6))
         plt.tight_layout()
