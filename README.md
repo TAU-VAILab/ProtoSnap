@@ -65,7 +65,11 @@ Then each control is used to generate an image, using ControlNet.
 Arguments:
 * ```sign_name``` The name of the sign to generate (such as A, AN, MA, etc.)
 * ```--num_of_samples``` Number of samples to generate. 50 by default
-* ```--output_path``` The results will be saved under ```<output_path>/<sign_name>/images```. The controls udes for generation will be saved under ```<output_path>/<sign_name>/controls```
+* ```--output_path``` The results will be saved under ```<output_path>/<sign_name>/images```. The controls udes for generation will be saved under ```<output_path>/<sign_name>/controls```]
+
+## Acknowledgments
+* The method and the test set were devolped using the [cunieform OCR dataset](https://github.com/ElectronicBabylonianLiterature/cuneiform-ocr-data)
+* This implimintation uses code form the official repository of [DIFT](https://github.com/Tsingularity/dift)
 
 ## Citation
 If you find this project useful, you may cite us as follows:
