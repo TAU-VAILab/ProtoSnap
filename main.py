@@ -39,7 +39,7 @@ def get_opts(is_main=True):
     parser.add_argument('--n_interpolations', '-ni', type=int, default=8)
     parser.add_argument('--line_weighting', '-lw', type=float, default=0.0)
     parser.add_argument('--df_filename', type=str, default='prototypes/metadata.csv')
-    parser.add_argument('--sd_checkpoint', type=str, default='/home/mikulinsky/cuneiform-sd-ebl-name-512/')
+    parser.add_argument('--sd_checkpoint', type=str, default='weights/SD_with_prompt')
     parser.add_argument('--con_dir', type=str, default='skeletons/Santakku')
     parser.add_argument('--font_dir', type=str, default='prototypes/Santakku')
     parser.add_argument('--suffix', type=str, default='results')
