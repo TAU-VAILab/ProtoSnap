@@ -25,6 +25,12 @@ We used this method to train ControlNet, to generate new a diverse cuneiform sig
 ```bash
 pip install -r requirements.txt
 ```
+To download the weights:
+```bash
+gdown  'https://drive.google.com/uc?export=download&id=1x2RlD4jk3O7QFZ6z4ApkSe4RWNnJq_K_'
+unzip weights.zip -d weights
+rm weights.zip
+```
 
 ## Run
 
