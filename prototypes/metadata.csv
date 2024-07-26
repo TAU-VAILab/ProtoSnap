@@ -1,0 +1,925 @@
+hex,NotoSansCuneiform-Regular,Santakku,SantakkuM,Esagil,CuneiformOB,CuneiformNA,Assurbanipal,CuneiformComposite,name
+0x12000,True,True,True,True,True,True,True,True,A
+0x12001,True,False,False,True,True,True,True,True,A TIMES A
+0x12002,True,False,False,True,True,True,True,True,A TIMES BAD
+0x12003,True,False,False,True,True,False,True,True,
+0x12004,True,False,False,True,True,False,True,True,A TIMES HA
+0x12005,True,False,False,True,True,True,True,True,A TIMES IGI
+0x12006,True,False,False,True,True,False,True,True,A TIMES LAGAR GUNU
+0x12007,True,False,False,True,True,False,True,True,A TIMES MUSH
+0x12008,True,False,False,True,True,False,True,True,A TIMES SAG
+0x12009,True,True,True,True,True,True,True,True,A2
+0x1200a,True,True,True,True,True,True,True,True,AB
+0x1200b,True,False,False,True,True,False,True,True,AB TIMES ASH2
+0x1200c,True,False,False,True,True,False,True,True,AB TIMES DUN3 GUNU
+0x1200d,True,False,False,True,True,False,True,True,AB TIMES GAL
+0x1200e,True,False,False,True,True,False,True,True,AB TIMES GAN2 TENU
+0x1200f,True,True,False,True,True,True,True,True,AB TIMES HA
+0x12010,True,False,False,True,True,True,True,True,AB TIMES IGI GUNU
+0x12011,True,False,False,True,True,False,True,True,AB TIMES IMIN
+0x12012,True,False,False,True,True,False,True,True,AB TIMES LAGAB
+0x12013,True,False,False,True,True,False,True,True,AB TIMES SHESH
+0x12014,True,True,True,True,True,True,True,True,AB TIMES U PLUS U PLUS U
+0x12015,True,True,True,True,True,True,True,True,AB GUNU
+0x12016,True,True,True,True,True,True,True,True,AB2
+0x12017,True,False,False,True,True,True,True,True,AB2 TIMES BALAG
+0x12018,True,False,False,True,True,False,True,True,AB2 TIMES GAN2 TENU
+0x12019,True,False,False,True,True,True,True,True,AB2 TIMES ME PLUS EN
+0x1201a,True,False,False,True,True,True,True,True,AB2 TIMES SHA3
+0x1201b,True,False,False,True,True,False,True,True,AB2 TIMES TAK4
+0x1201c,True,True,True,True,True,True,True,True,AD
+0x1201d,True,True,True,True,True,True,True,True,AK
+0x1201e,True,False,False,True,True,True,True,True,AK TIMES ERIN2
+0x1201f,True,False,False,True,True,False,True,True,AK TIMES SHITA PLUS GISH
+0x12020,True,True,True,True,True,True,True,True,AL
+0x12021,True,False,False,True,True,False,True,True,AL TIMES AL
+0x12022,True,False,False,True,True,False,True,True,AL TIMES DIM2
+0x12023,True,False,False,True,True,False,True,True,AL TIMES GISH
+0x12024,True,False,False,True,True,False,True,True,AL TIMES HA
+0x12025,True,False,False,True,True,False,True,True,AL TIMES KAD3
+0x12026,True,False,False,True,True,False,True,True,AL TIMES KI
+0x12027,True,False,False,True,True,False,True,True,AL TIMES SHE
+0x12028,True,False,False,True,True,False,True,True,AL TIMES USH
+0x12029,True,True,True,True,True,True,True,True,ALAN
+0x1202a,True,True,False,True,True,True,True,True,ALEPH
+0x1202b,True,True,True,True,True,True,True,True,AMAR
+0x1202c,True,True,False,True,True,True,True,True,AMAR TIMES SHE
+0x1202d,True,True,True,True,True,True,True,True,AN
+0x1202e,True,False,False,True,True,True,True,True,AN OVER AN
+0x1202f,True,True,False,True,True,True,True,True,AN THREE TIMES
+0x12030,True,False,False,True,True,False,True,True,AN PLUS NAGA OPPOSING AN PLUS NAGA
+0x12031,True,False,False,True,True,False,True,True,AN PLUS NAGA SQUARED
+0x12032,True,True,True,True,True,True,True,True,ANSHE
+0x12033,True,True,True,True,True,True,True,True,APIN
+0x12034,True,True,True,True,True,True,True,True,ARAD
+0x12035,True,False,False,True,True,True,True,True,ARAD TIMES KUR
+0x12036,True,False,False,True,True,False,True,True,
+0x12037,True,False,False,True,True,False,True,True,ASAL2
+0x12038,True,True,True,True,True,True,True,True,ASH
+0x12039,True,True,False,True,True,False,True,True,ASH ZIDA TENU
+0x1203a,True,False,False,True,True,False,True,True,ASH KABA TENU
+0x1203b,True,False,False,True,True,False,True,True,ASH OVER ASH TUG2 OVER TUG2 TUG2 OVER TUG2 PAP
+0x1203c,True,False,False,True,True,False,True,True,CUNEIFORM SIGN ASH OVER ASH OVER ASH & TAB
+0x1203d,True,False,False,True,True,False,True,True,ASH OVER ASH OVER ASH CROSSING ASH OVER ASH OVER ASH
+0x1203e,True,True,True,True,True,True,True,True,ASH2
+0x1203f,True,True,True,True,True,True,True,True,ASHGAB
+0x12040,True,True,True,True,True,True,True,True,BA
+0x12041,True,True,True,True,True,True,True,True,BAD
+0x12042,True,False,False,True,True,False,True,True,
+0x12043,True,False,False,True,True,True,True,True,
+0x12044,True,True,True,True,True,True,True,True,BAL
+0x12045,True,False,False,True,True,False,True,True,
+0x12046,True,True,False,True,True,True,True,True,BALAG
+0x12047,True,True,True,True,True,True,True,True,BAR
+0x12048,True,True,False,True,True,True,True,True,BARA2
+0x12049,True,True,True,True,True,True,True,True,BI
+0x1204a,True,False,False,True,True,False,True,True,BI TIMES A
+0x1204b,True,False,False,True,True,False,True,True,BI TIMES GAR
+0x1204c,True,False,False,True,True,False,True,True,BI TIMES IGI GUNU
+0x1204d,True,True,True,True,True,True,True,True,BU
+0x1204e,True,False,False,True,True,False,True,True,BU OVER BU AB
+0x1204f,True,False,False,True,True,False,True,True,
+0x12050,True,False,False,True,True,False,True,True,BU CROSSING BU
+0x12051,True,False,False,True,True,True,True,True,BULUG OVER BULUG
+0x12052,True,False,False,True,True,False,True,True,
+0x12053,True,True,True,True,True,True,True,True,BUR
+0x12054,True,False,True,True,True,True,True,True,BUR2
+0x12055,True,True,True,True,True,True,True,True,DA
+0x12056,True,True,True,True,True,True,True,True,DAG
+0x12057,True,False,False,True,True,False,True,True,DAG KISIM5 TIMES A PLUS MASH
+0x12058,True,False,False,True,True,False,True,True,DAG KISIM5 TIMES AMAR
+0x12059,True,False,False,True,True,True,True,True,DAG KISIM5 TIMES BALAG
+0x1205a,True,False,False,True,True,False,True,True,DAG KISIM5 TIMES BI
+0x1205b,True,False,True,True,True,False,True,True,DAG KISIM5 TIMES GA
+0x1205c,True,False,False,True,True,True,True,True,
+0x1205d,True,False,False,True,True,True,True,True,DAG KISIM5 TIMES GI
+0x1205e,True,False,False,True,True,True,True,True,DAG KISIM5 TIMES GIR2
+0x1205f,True,False,False,True,True,True,True,True,DAG KISIM5 TIMES GUD
+0x12060,True,False,False,True,True,False,True,True,DAG KISIM5 TIMES HA
+0x12061,True,False,False,True,True,False,True,True,DAG KISIM5 TIMES IR
+0x12062,True,False,False,True,True,False,True,True,DAG KISIM5 TIMES IR PLUS LU
+0x12063,True,False,False,True,True,False,True,True,DAG KISIM5 TIMES KAK
+0x12064,True,False,False,True,True,False,True,True,DAG KISIM5 TIMES LA
+0x12065,True,False,False,True,True,False,True,True,DAG KISIM5 TIMES LU
+0x12066,True,False,False,True,True,True,True,True,DAG KISIM5 TIMES LU PLUS MASH2
+0x12067,True,False,False,True,True,False,True,True,DAG KISIM5 TIMES LUM
+0x12068,True,False,False,True,True,True,True,True,DAG KISIM5 TIMES NE
+0x12069,True,False,False,True,True,False,True,True,DAG KISIM5 TIMES PAP PLUS PAP
+0x1206a,True,False,False,True,True,False,True,True,DAG KISIM5 TIMES SI
+0x1206b,True,False,False,True,True,True,True,True,DAG KISIM5 TIMES TAK4
+0x1206c,True,False,False,True,True,True,True,True,DAG KISIM5 TIMES U2 PLUS GIR2
+0x1206d,True,False,False,True,True,True,True,True,DAG KISIM5 TIMES USH
+0x1206e,True,True,True,True,True,True,True,True,DAM
+0x1206f,True,True,True,True,True,True,True,True,DAR
+0x12070,True,True,False,True,True,True,True,True,DARA3
+0x12071,True,False,False,True,True,True,True,True,DARA4
+0x12072,True,True,True,True,True,True,True,True,DI
+0x12073,True,True,True,True,True,True,True,True,DIB
+0x12074,True,True,True,True,True,True,True,True,DIM
+0x12075,True,True,False,True,True,True,True,True,DIM TIMES SHE
+0x12076,True,True,True,True,True,True,True,True,DIM2
+0x12077,True,True,True,True,True,True,True,True,DIN
+0x12078,True,False,False,True,True,False,True,True,CUNEIFORM SIGN DIN KASKAL U GUNU DISH
+0x12079,True,True,True,True,True,True,True,True,DISH
+0x1207a,True,True,True,True,True,True,True,True,DU
+0x1207b,True,True,False,True,True,True,True,True,DU OVER DU
+0x1207c,True,True,True,True,True,True,True,True,DU GUNU
+0x1207d,True,True,False,True,True,True,True,True,DU SHESHIG
+0x1207e,True,True,True,True,True,True,True,True,DUB
+0x1207f,True,False,False,True,True,False,True,True,
+0x12080,True,False,False,True,True,True,True,True,DUB2
+0x12081,True,True,False,True,True,True,True,True,DUG
+0x12082,True,False,False,True,True,True,True,True,DUGUD
+0x12083,True,False,False,True,True,False,True,True,DUH
+0x12084,True,True,False,True,True,True,True,True,DUN
+0x12085,True,False,False,True,True,True,True,True,DUN3
+0x12086,True,True,True,True,True,True,True,True,DUN3 GUNU
+0x12087,True,True,True,True,True,True,True,True,DUN3 GUNU GUNU
+0x12088,True,True,False,True,True,True,True,True,DUN4
+0x12089,True,True,True,True,True,True,True,True,DUR2
+0x1208a,True,True,True,True,True,True,True,True,E
+0x1208b,True,False,False,True,True,False,True,True,E TIMES PAP
+0x1208c,True,False,False,True,True,False,True,True,E OVER E NUN OVER NUN
+0x1208d,True,True,True,True,True,True,True,True,E2
+0x1208e,True,False,False,True,True,False,True,True,
+0x1208f,True,False,False,True,True,False,True,True,E2 TIMES GAR
+0x12090,True,False,False,True,True,False,True,True,E2 TIMES MI
+0x12091,True,False,False,True,True,False,True,True,E2 TIMES SAL
+0x12092,True,False,False,True,True,False,True,True,E2 TIMES SCHE(standard)
+0x12093,True,False,False,True,True,False,True,True,
+0x12094,True,True,False,True,True,True,True,True,EDIN
+0x12095,True,True,False,True,True,True,True,True,EGIR
+0x12096,True,True,True,True,True,True,True,True,EL
+0x12097,True,True,True,True,True,True,True,True,EN
+0x12098,True,False,False,True,True,True,True,True,EN TIMES GAN2
+0x12099,True,True,True,True,True,True,True,True,EN TIMES GAN2 TENU
+0x1209a,True,False,False,True,True,False,True,True,EN TIMES ME
+0x1209b,True,False,False,True,True,False,True,True,EN CROSSING EN
+0x1209c,True,False,False,True,True,False,True,True,
+0x1209d,True,False,False,True,True,False,True,True,EN SQUARED
+0x1209e,True,True,False,True,True,True,True,True,EREN
+0x1209f,True,True,True,True,True,True,True,True,ERIN2
+0x120a0,True,True,True,True,True,True,True,True,ESH2
+0x120a1,True,True,False,True,True,True,True,True,EZEN TIMES AN
+0x120a2,True,False,False,True,True,False,True,True,EZEN TIMES A
+0x120a3,True,False,False,True,True,False,True,True,EZEN TIMES A PLUS LAL
+0x120a4,True,False,False,True,True,False,True,True,EZEN TIMES A PLUS LAL TIMES LAL
+0x120a5,True,False,False,True,True,False,True,True,
+0x120a6,True,True,False,True,True,True,True,True,EZEN TIMES BAD
+0x120a7,True,False,False,True,True,False,True,True,
+0x120a8,True,False,False,True,True,False,True,True,
+0x120a9,True,False,False,True,True,False,True,True,EZEN TIMES HA
+0x120aa,True,False,False,True,True,False,True,True,
+0x120ab,True,False,False,True,True,False,True,True,EZEN TIMES IGI GUNU
+0x120ac,True,False,False,True,True,True,True,True,EZEN TIMES KASKAL
+0x120ad,True,False,False,True,True,False,True,True,EZEN TIMES KASKAL SQUARED
+0x120ae,True,False,False,True,True,False,True,True,EZEN TIMES KU3
+0x120af,True,False,False,True,True,False,True,True,EZEN TIMES LA
+0x120b0,True,False,False,True,True,False,True,True,EZEN TIMES LAL TIMES LAL
+0x120b1,True,False,False,True,True,False,True,True,EZEN TIMES LI
+0x120b2,True,False,False,True,True,False,True,True,EZEN TIMES LU
+0x120b3,True,False,False,True,True,False,True,True,EZEN TIMES U2
+0x120b4,True,False,False,True,True,False,True,True,EZEN TIMES UD
+0x120b5,True,True,True,True,True,True,True,True,GA
+0x120b6,True,False,False,True,True,False,True,True,GA GUNU
+0x120b7,True,True,True,True,True,True,True,True,GA2
+0x120b8,True,False,False,True,True,False,True,True,GA2 TIMES A PLUS DA PLUS HA
+0x120b9,True,False,False,True,True,False,True,True,
+0x120ba,True,False,False,True,True,False,True,True,GA2 TIMES A PLUS IGI
+0x120bb,True,False,False,True,True,False,True,True,
+0x120bc,True,True,True,True,True,True,True,True,GA2 TIMES AN
+0x120bd,True,False,False,True,True,False,True,True,GÁ×A
+0x120be,True,False,False,True,True,False,True,True,E2 TIMES A PLUS HA PLUS DA(sic!)
+0x120bf,True,False,False,True,True,False,True,True,GA2 TIMES BAD
+0x120c0,True,False,False,True,True,False,True,True,
+0x120c1,True,False,False,True,True,False,True,True,
+0x120c2,True,False,False,True,True,False,True,True,GA2 TIMES BUR PLUS RA
+0x120c3,True,False,False,True,True,False,True,True,GA2 TIMES DA
+0x120c4,True,False,False,True,True,False,True,True,GA2 TIMES DI
+0x120c5,True,False,False,True,True,False,True,True,GA2 TIMES DIM TIMES SHE
+0x120c6,True,False,False,True,True,False,True,True,GA2 TIMES DUB
+0x120c7,True,False,False,True,True,False,True,True,
+0x120c8,True,False,False,True,True,False,True,True,GA2 TIMES EL PLUS LA
+0x120c9,True,False,False,True,True,False,True,True,GA2 TIMES EN
+0x120ca,True,False,False,True,True,False,True,True,GA2 TIMES EN TIMES GAN2 TENU
+0x120cb,True,False,False,True,True,True,True,True,GA2 TIMES GAN2 TENU
+0x120cc,True,False,False,True,True,True,True,True,GA2 TIMES GAR
+0x120cd,True,False,False,True,True,False,True,True,GA2 TIMES GI
+0x120ce,True,False,False,True,True,True,True,True,GA2 TIMES GI4
+0x120cf,True,False,False,True,True,False,True,True,
+0x120d0,True,False,False,True,True,False,True,True,GA2 TIMES GIR2 PLUS SU
+0x120d1,True,False,False,True,True,False,True,True,GA2 TIMES HA PLUS LU PLUS ESH2
+0x120d2,True,False,False,True,True,False,True,True,
+0x120d3,True,False,False,True,True,False,True,True,GA2 TIMES HAL PLUS LA
+0x120d4,True,False,False,True,True,False,True,True,GA2 TIMES HI PLUS LI
+0x120d5,True,False,False,True,True,True,True,True,GA2 TIMES HUB2
+0x120d6,True,False,False,True,True,False,True,True,GA2 TIMES IGI GUNU
+0x120d7,True,False,False,True,True,False,True,True,GA2 TIMES ISH PLUS HU PLUS ASH
+0x120d8,True,False,False,True,True,False,True,True,GA2 TIMES KAK
+0x120d9,True,False,False,True,True,False,True,True,GA2 TIMES KASKAL
+0x120da,True,False,False,True,True,False,True,True,
+0x120db,True,False,False,True,True,False,True,True,GA2 TIMES KID PLUS LAL
+0x120dc,True,False,False,True,True,False,True,True,GA2 TIMES KU3 PLUS AN
+0x120dd,True,False,False,True,True,False,True,True,
+0x120de,True,False,False,True,True,True,True,True,GA2 TIMES ME PLUS EN
+0x120df,True,False,False,True,True,False,True,True,GA2 TIMES MI(standard)
+0x120e0,True,False,False,True,True,True,True,True,GA2 TIMES NUN
+0x120e1,True,True,True,True,True,True,True,True,GA2 TIMES NUN OVER NUN
+0x120e2,True,True,False,True,True,True,True,True,GA2 TIMES PA
+0x120e3,True,False,False,True,True,True,True,True,GA2 TIMES SAL
+0x120e4,True,False,False,True,True,True,True,True,GA2 TIMES SAR
+0x120e5,True,False,False,True,True,True,True,True,GA2 TIMES SHE
+0x120e6,True,False,False,True,True,False,True,True,GA2 TIMES SHE PLUS TUR
+0x120e7,True,False,False,True,True,False,True,True,GA2 TIMES SHID
+0x120e8,True,False,False,True,True,False,True,True,GA2 TIMES SUM
+0x120e9,True,False,False,True,True,False,True,True,GA2 TIMES TAK4
+0x120ea,True,False,False,True,True,False,True,True,GA2 TIMES U
+0x120eb,True,False,False,True,True,False,True,True,GA2 TIMES UD
+0x120ec,True,False,False,True,True,False,True,True,
+0x120ed,True,False,False,True,True,False,True,True,
+0x120ee,True,True,True,True,True,True,True,True,GABA
+0x120ef,True,False,False,True,True,False,True,True,
+0x120f0,True,True,True,True,True,True,True,True,GAD & TAK4 & GISH
+0x120f1,True,False,False,True,True,False,True,True,GAD OVER GAD GAR OVER GAR
+0x120f2,True,True,True,True,True,True,True,True,GAL
+0x120f3,True,False,False,True,True,False,True,True,GAL GAD OVER GAD GAR OVER GAR
+0x120f4,True,False,False,True,True,True,True,True,GALAM
+0x120f5,True,True,False,True,True,True,True,True,GAM
+0x120f6,True,True,True,True,True,True,True,True,GAN
+0x120f7,True,True,True,True,True,True,True,True,GAN2
+0x120f8,True,False,False,True,True,True,True,True,GAN2 TENU
+0x120f9,True,False,False,True,True,False,True,True,GAN2 OVER GAN2
+0x120fa,True,False,False,True,True,False,True,True,GAN2 CROSSING GAN2
+0x120fb,True,True,True,True,True,True,True,True,GAR
+0x120fc,True,True,True,True,True,True,True,True,GAR3
+0x120fd,True,False,False,True,True,True,True,True,GASHAN
+0x120fe,True,True,False,True,True,True,True,True,GESHTIN
+0x120ff,True,False,False,True,True,False,True,True,GESHTIN TIMES KUR
+0x12100,True,True,True,True,True,True,True,True,GI
+0x12101,True,False,False,True,True,False,True,True,GI TIMES E
+0x12102,True,False,False,True,True,False,True,True,
+0x12103,True,True,False,True,True,True,True,True,GI CROSSING GI
+0x12104,True,True,True,True,True,True,True,True,GI4
+0x12105,True,False,False,True,True,False,True,True,GI4 OVER GI4
+0x12106,True,False,False,True,True,True,True,True,GI4 CROSSING GI4
+0x12107,True,False,False,True,True,True,True,True,GIDIM
+0x12108,True,True,True,True,True,True,True,True,GIR2
+0x12109,True,True,True,True,True,True,True,True,GIR2 GUNU
+0x1210a,True,True,True,True,True,True,True,True,GIR3
+0x1210b,True,False,False,True,True,True,True,True,GIR3 TIMES A PLUS IGI
+0x1210c,True,False,False,True,True,False,True,True,GIR3 TIMES GAN2 TENU
+0x1210d,True,False,False,True,True,False,True,True,GIR3 TIMES IGI
+0x1210e,True,False,False,True,True,False,True,True,GIR3 TIMES LU PLUS IGI
+0x1210f,True,False,False,True,True,False,True,True,GIR3 TIMES PA
+0x12110,True,False,False,True,True,True,True,True,GISAL
+0x12111,True,True,True,True,True,True,True,True,GISH
+0x12112,True,True,True,True,True,True,True,True,GISH CROSSING GISH
+0x12113,True,False,False,True,True,False,True,True,GISH TIMES BAD
+0x12114,True,False,False,True,True,False,True,True,
+0x12115,True,False,False,True,True,False,True,True,GISH TENU
+0x12116,True,True,True,True,True,True,True,True,GU
+0x12117,True,False,False,True,True,True,True,True,GU CROSSING GU
+0x12118,True,True,True,True,True,True,True,True,GU2 & UN
+0x12119,True,True,True,True,True,True,True,True,GU2 TIMES KAK
+0x1211a,True,False,False,True,True,False,True,True,
+0x1211b,True,False,False,True,True,True,True,True,GU2 TIMES NUN
+0x1211c,True,False,False,True,True,False,True,True,
+0x1211d,True,False,False,True,True,True,True,True,GU2 GUNU & KAK
+0x1211e,True,True,True,True,True,True,True,True,GUD
+0x1211f,True,False,False,True,True,False,True,True,GUD TIMES A PLUS KUR
+0x12120,True,True,True,True,True,True,True,True,GUD TIMES KUR
+0x12121,True,False,False,True,True,False,True,True,GUD OVER GUD LUGAL
+0x12122,True,True,True,True,True,True,True,True,GUL
+0x12123,True,True,True,True,True,True,True,True,GUM
+0x12124,True,True,False,True,True,True,True,True,GUM TIMES SHE
+0x12125,True,True,True,True,True,True,True,True,GUR
+0x12126,True,False,True,True,True,True,True,True,GUR7
+0x12127,True,False,False,True,True,True,True,True,GURUN
+0x12128,True,False,False,True,True,True,True,True,GURUSH
+0x12129,True,True,True,True,True,True,True,True,HA
+0x1212a,True,False,False,True,True,False,True,True,HA TENU
+0x1212b,True,True,True,True,True,True,True,True,HA GUNU
+0x1212c,True,True,True,True,True,True,True,True,HAL
+0x1212d,True,True,True,True,True,True,True,True,HI
+0x1212e,True,False,False,True,True,True,True,True,HI TIMES ASH
+0x1212f,True,True,True,True,True,True,True,True,HI TIMES ASH2
+0x12130,True,True,True,True,True,True,True,True,HI TIMES BAD
+0x12131,True,False,False,True,True,False,True,True,HI TIMES DISH
+0x12132,True,True,False,True,True,False,True,True,HI TIMES GAD
+0x12133,True,False,False,True,True,False,True,True,HI TIMES KIN
+0x12134,True,True,True,True,True,True,True,True,HI TIMES NUN
+0x12135,True,False,False,True,True,True,True,True,HI TIMES SHE
+0x12136,True,False,False,True,True,False,True,True,HI TIMES U
+0x12137,True,True,True,True,True,True,True,True,HU
+0x12138,True,True,True,True,True,True,True,True,HUB2
+0x12139,True,False,False,True,True,False,True,True,
+0x1213a,True,False,False,True,True,False,True,True,
+0x1213b,True,False,False,True,True,False,True,True,
+0x1213c,True,False,False,True,True,False,True,True,
+0x1213d,True,True,False,True,True,True,True,True,HUB2 TIMES UD
+0x1213e,True,True,False,True,True,True,True,True,HUL2
+0x1213f,True,True,True,True,True,True,True,True,I
+0x12140,True,True,True,True,True,True,True,True,I A
+0x12141,True,True,True,True,True,True,True,True,IB
+0x12142,True,False,False,True,True,True,True,True,IDIM
+0x12143,True,False,False,True,True,False,True,True,IDIM OVER IDIM BUR
+0x12144,True,False,False,True,True,False,True,True,
+0x12145,True,True,True,True,True,True,True,True,IG
+0x12146,True,True,True,True,True,True,True,True,IGI & GAR
+0x12147,True,True,True,True,True,True,True,True,IGI & DIB
+0x12148,True,True,True,True,True,True,True,True,IGI RI
+0x12149,True,False,False,True,True,False,True,True,IGI OVER IGI SHIR OVER SHIR UD OVER UD
+0x1214a,True,True,False,True,True,True,True,True,IGI GUNU
+0x1214b,True,True,True,True,True,True,True,True,IL
+0x1214c,True,False,False,True,True,False,True,True,IL TIMES GAN2 TENU
+0x1214d,True,True,True,True,True,True,True,True,IL2
+0x1214e,True,True,True,True,True,True,True,True,IM
+0x1214f,True,False,False,True,True,False,True,True,IM TIMES TAK4
+0x12150,True,False,False,True,True,False,True,True,IM CROSSING IM
+0x12151,True,False,False,True,True,False,True,True,
+0x12152,True,False,False,True,True,False,True,True,IM SQUARED
+0x12153,True,False,False,True,True,True,True,True,IMIN
+0x12154,True,True,True,True,True,True,True,True,IN
+0x12155,True,True,True,True,True,True,True,True,IR
+0x12156,True,True,True,True,True,True,True,True,ISH
+0x12157,True,True,True,True,True,True,True,True,KA
+0x12158,True,False,True,True,True,True,True,True,KA TIMES A
+0x12159,True,False,False,True,True,False,True,True,
+0x1215a,True,False,False,True,True,True,True,True,KA TIMES AD PLUS KU3
+0x1215b,True,False,False,True,True,True,True,True,KA TIMES ASH2
+0x1215c,True,False,False,True,True,True,True,True,KA TIMES BAD
+0x1215d,True,False,False,True,True,False,True,True,KA TIMES BALAG
+0x1215e,True,False,False,True,True,False,True,True,KA TIMES BAR
+0x1215f,True,False,False,True,True,False,True,True,
+0x12160,True,False,False,True,True,False,True,True,KA TIMES ERIN2
+0x12161,True,False,False,True,True,True,True,True,KA TIMES ESH2
+0x12162,True,False,False,True,True,True,True,True,KA TIMES GA
+0x12163,True,False,False,True,True,False,True,True,
+0x12164,True,True,False,True,True,True,True,True,KA TIMES GAN2 TENU
+0x12165,True,True,False,True,True,True,True,True,KA TIMES GAR
+0x12166,True,False,False,True,True,False,True,True,KA TIMES GAR PLUS SHA3 PLUS A
+0x12167,True,False,False,True,True,False,True,True,
+0x12168,True,False,False,True,True,False,True,True,KA TIMES GIR2
+0x12169,True,False,False,True,True,False,True,True,
+0x1216a,True,False,False,True,True,True,True,True,KA TIMES GISH CROSSING GISH
+0x1216b,True,False,False,True,True,True,True,True,KA TIMES GU
+0x1216c,True,False,False,True,True,False,True,True,KA TIMES GUR7
+0x1216d,True,False,False,True,True,False,True,True,KA TIMES IGI
+0x1216e,True,False,False,True,True,True,True,True,KA TIMES IM
+0x1216f,True,False,False,True,True,False,True,True,KA TIMES KAK
+0x12170,True,False,False,True,True,False,True,True,KA TIMES KI
+0x12171,True,False,False,True,True,False,True,True,
+0x12172,True,False,False,True,True,True,True,True,KA TIMES LI
+0x12173,True,False,False,True,True,False,True,True,
+0x12174,True,False,True,True,True,True,True,True,KA TIMES ME
+0x12175,True,False,False,True,True,False,True,True,KA TIMES ME PLUS DU
+0x12176,True,False,False,True,True,False,True,True,KA TIMES ME PLUS GI
+0x12177,True,False,False,True,True,False,True,True,KA TIMES ME PLUS TE
+0x12178,True,False,False,True,True,True,True,True,KA TIMES MI
+0x12179,True,False,False,True,True,False,True,True,
+0x1217a,True,False,False,True,True,True,True,True,KA TIMES NE
+0x1217b,True,False,False,True,True,True,True,True,KA TIMES NUN
+0x1217c,True,False,False,True,True,True,True,True,KA TIMES PI
+0x1217d,True,False,False,True,True,False,True,True,KA TIMES RU
+0x1217e,True,False,False,True,True,True,True,True,KA TIMES SA
+0x1217f,True,False,False,True,True,False,True,True,KA TIMES SAR
+0x12180,True,False,False,True,True,False,True,True,KA TIMES SHA
+0x12181,True,False,False,True,True,True,True,True,KA TIMES SHE
+0x12182,True,False,False,True,True,True,True,True,KA TIMES SHID
+0x12183,True,False,False,True,True,True,True,True,KA TIMES SHU
+0x12184,True,False,False,True,True,False,True,True,KA TIMES SIG
+0x12185,True,False,False,True,True,False,True,True,
+0x12186,True,False,False,True,True,False,True,True,
+0x12187,True,False,False,True,True,False,True,True,KA TIMES U
+0x12188,True,False,False,True,True,False,True,True,KA TIMES U2
+0x12189,True,False,False,True,True,True,True,True,KA TIMES UD
+0x1218a,True,False,False,True,True,False,True,True,
+0x1218b,True,False,False,True,True,False,True,True,KA TIMES USH
+0x1218c,True,False,False,True,True,False,True,True,
+0x1218d,True,True,True,True,True,True,True,True,KA2
+0x1218e,True,False,False,True,True,False,True,True,
+0x1218f,True,True,True,True,True,True,True,True,KAB
+0x12190,True,False,False,True,True,True,True,True,KAD2
+0x12191,True,False,False,True,True,True,True,True,KAD3
+0x12192,True,True,False,True,True,True,True,True,KAD4
+0x12193,True,False,False,True,True,True,True,True,KAD5
+0x12194,True,False,False,True,True,False,True,True,
+0x12195,True,True,True,True,True,True,True,True,KAK
+0x12196,True,False,False,True,True,False,True,True,
+0x12197,True,True,True,True,True,True,True,True,KAL
+0x12198,True,False,False,True,True,True,True,True,KAL TIMES BAD
+0x12199,True,False,False,True,True,False,True,True,KAL CROSSING KAL
+0x1219a,True,False,False,True,True,True,True,True,KAM2 (wrong!)
+0x1219b,True,False,False,True,True,True,True,True,KAM4
+0x1219c,True,True,True,True,True,True,True,True,KASKAL
+0x1219d,True,False,False,True,True,False,True,True,KASKAL LAGAB TIMES U OVER LAGAB TIMES U
+0x1219e,True,False,False,True,True,False,True,True,KASKAL OVER KASKAL LAGAB TIMES U OVER LAGAB TIMES U
+0x1219f,True,True,False,True,True,True,True,True,KESH2
+0x121a0,True,True,True,True,True,True,True,True,KI
+0x121a1,True,False,False,True,True,False,True,True,KI TIMES BAD
+0x121a2,True,False,False,True,True,True,True,True,KI TIMES U
+0x121a3,True,False,False,True,True,True,True,True,KI TIMES UD
+0x121a4,True,True,True,True,True,True,True,True,KID
+0x121a5,True,True,True,True,True,True,True,True,KIN
+0x121a6,True,True,True,True,True,True,True,True,KISAL
+0x121a7,True,True,True,True,True,True,True,True,KISH
+0x121a8,True,False,False,True,True,False,True,True,KISIM5
+0x121a9,True,False,False,True,True,False,True,True,KISIM5 OVER KISIM5
+0x121aa,True,True,True,True,True,True,True,True,KU
+0x121ab,True,False,False,True,True,False,True,True,KU OVER HI TIMES ASH2 KU OVER HI TIMES ASH2
+0x121ac,True,True,True,True,True,True,True,True,KU3
+0x121ad,True,True,True,True,True,True,True,True,KU4
+0x121ae,True,False,False,True,True,True,True,True,
+0x121af,True,True,False,True,True,True,True,True,KU7
+0x121b0,True,True,True,True,True,True,True,True,KUL
+0x121b1,True,False,False,True,True,False,True,True,KUL GUNU
+0x121b2,True,True,True,True,True,True,True,True,KUN
+0x121b3,True,True,True,True,True,True,True,True,KUR
+0x121b4,True,False,False,True,True,False,True,True,KUR OPPOSING KUR
+0x121b5,True,True,False,True,True,True,True,True,KUSHU2
+0x121b6,True,False,False,True,True,False,True,True,
+0x121b7,True,True,True,True,True,True,True,True,LA
+0x121b8,True,True,True,True,True,True,True,True,LAGAB
+0x121b9,True,True,False,True,True,True,True,True,LAGAB TIMES A
+0x121ba,True,False,False,True,True,False,True,True,LAGAB TIMES A PLUS DA PLUS HA
+0x121bb,True,False,False,True,True,False,True,True,LAGAB TIMES A PLUS GAR
+0x121bc,True,False,False,True,True,True,True,True,LAGAB TIMES A PLUS LAL
+0x121bd,True,False,False,True,True,False,True,True,LAGAB TIMES AL
+0x121be,True,False,False,True,True,False,True,True,LAGAB TIMES AN
+0x121bf,True,False,False,True,True,False,True,True,LAGAB TIMES ASH ZIDA TENU
+0x121c0,True,True,False,True,True,True,True,True,LAGAB TIMES BAD
+0x121c1,True,False,False,True,True,False,True,True,LAGAB TIMES BI
+0x121c2,True,False,False,True,True,False,True,True,LAGAB TIMES DAR
+0x121c3,True,False,False,True,True,False,True,True,LAGAB TIMES EN
+0x121c4,True,False,False,True,True,False,True,True,LAGAB TIMES GA
+0x121c5,True,False,False,True,True,True,True,True,LAGAB TIMES GAR
+0x121c6,True,False,False,True,True,True,True,True,LAGAB TIMES GUD
+0x121c7,True,True,True,True,True,True,True,True,LAGAB TIMES GUD PLUS GUD
+0x121c8,True,False,False,True,True,False,True,True,LAGAB TIMES HA
+0x121c9,True,True,True,True,True,True,True,True,LAGAB TIMES HAL
+0x121ca,True,False,False,True,True,False,True,True,LAGAB TIMES HI TIMES NUN
+0x121cb,True,False,False,True,True,True,True,True,LAGAB TIMES IGI GUNU
+0x121cc,True,False,False,True,True,True,True,True,LAGAB TIMES IM
+0x121cd,True,False,False,True,True,False,True,True,
+0x121ce,True,False,False,True,True,False,True,True,
+0x121cf,True,False,False,True,True,False,True,True,LAGAB TIMES KI
+0x121d0,True,False,False,True,True,False,True,True,LAGAB TIMES KIN
+0x121d1,True,False,False,True,True,True,True,True,LAGAB TIMES KU3
+0x121d2,True,True,False,True,True,True,True,True,LAGAB TIMES KUL
+0x121d3,True,False,False,True,True,False,True,True,LAGAB TIMES KUL PLUS HI PLUS A
+0x121d4,True,False,False,True,True,False,True,True,LAGAB TIMES LAGAB
+0x121d5,True,False,False,True,True,False,True,True,LAGAB TIMES LISH
+0x121d6,True,False,False,True,True,False,True,True,LAGAB TIMES LU
+0x121d7,True,False,False,True,True,False,True,True,LAGAB TIMES LUL
+0x121d8,True,False,False,True,True,False,True,True,LAGAB TIMES ME
+0x121d9,True,False,False,True,True,True,True,True,LAGAB TIMES ME PLUS EN
+0x121da,True,False,False,True,True,False,True,True,LAGAB TIMES MUSH
+0x121db,True,False,False,True,True,False,True,True,LAGAB TIMES NE
+0x121dc,True,False,False,True,True,False,True,True,LAGAB TIMES SHE PLUS SUM
+0x121dd,True,False,False,True,True,False,True,True,LAGAB TIMES SHITA PLUS GISH PLUS ERIN2
+0x121de,True,False,False,True,True,False,True,True,LAGAB TIMES SHITA PLUS GISH TENU
+0x121df,True,False,False,True,True,False,True,True,LAGAB TIMES SHU2
+0x121e0,True,False,False,True,True,False,True,True,LAGAB TIMES SHU2 PLUS SHU2
+0x121e1,True,True,True,True,True,True,True,True,LAGAB TIMES SUM
+0x121e2,True,False,False,True,True,False,True,True,
+0x121e3,True,False,False,True,True,False,True,True,LAGAB TIMES TAK4
+0x121e4,True,False,False,True,True,False,True,True,LAGAB TIMES TE PLUS A PLUS SU PLUS NA
+0x121e5,True,True,False,True,True,True,True,True,LAGAB TIMES U
+0x121e6,True,False,False,True,True,True,True,True,LAGAB TIMES U PLUS A
+0x121e7,True,False,False,True,True,True,True,True,LAGAB TIMES U PLUS U PLUS U
+0x121e8,True,False,False,True,True,False,True,True,LAGAB TIMES U2 PLUS ASH
+0x121e9,True,False,False,True,True,False,True,True,LAGAB TIMES UD
+0x121ea,True,False,False,True,True,False,True,True,LAGAB TIMES USH
+0x121eb,True,False,False,True,True,False,True,True,LAGAB SQUARED
+0x121ec,True,True,True,True,True,True,True,True,LAGAR
+0x121ed,True,False,False,True,True,True,True,True,LAGAR TIMES SHE
+0x121ee,True,False,False,True,True,False,True,True,LAGAR TIMES SHE PLUS SUM
+0x121ef,True,True,True,True,True,True,True,True,LAGAR GUNU
+0x121f0,True,False,False,True,True,False,True,True,LAGAR GUNU OVER LAGAR GUNU SHE
+0x121f1,True,False,False,True,True,False,True,True,
+0x121f2,True,True,False,True,True,True,True,True,LAL
+0x121f3,True,True,False,True,True,True,True,True,LAL TIMES LAL
+0x121f4,True,True,True,True,True,True,True,True,LAM
+0x121f5,True,False,False,True,True,True,True,True,LAM TIMES KUR
+0x121f6,True,False,False,True,True,False,True,True,
+0x121f7,True,True,True,True,True,True,True,True,LI
+0x121f8,True,False,False,True,True,True,True,True,LIL
+0x121f9,True,False,False,True,True,True,True,True,LIMMU2
+0x121fa,True,True,False,True,True,True,True,True,LISH
+0x121fb,True,True,True,True,True,True,True,True,LU
+0x121fc,True,False,False,True,True,False,True,True,LU TIMES BAD
+0x121fd,True,True,True,True,True,True,True,True,LU2
+0x121fe,True,False,False,True,True,False,True,True,LU2 TIMES AL
+0x121ff,True,False,False,True,True,False,True,True,LU2 TIMES BAD
+0x12200,True,False,False,True,True,False,True,True,LU2 TIMES ESH2
+0x12201,True,False,False,True,True,False,True,True,LU2 TIMES ESH2 TENU
+0x12202,True,False,False,True,True,False,True,True,LU2 TIMES GAN2 TENU
+0x12203,True,False,False,True,True,False,True,True,LU2 TIMES HI TIMES BAD
+0x12204,True,False,False,True,True,False,True,True,LU2 TIMES IM
+0x12205,True,False,False,True,True,False,True,True,LU2 TIMES KAD2
+0x12206,True,False,False,True,True,False,True,True,LU2 TIMES KAD3
+0x12207,True,False,False,True,True,False,True,True,
+0x12208,True,False,False,True,True,False,True,True,LU2 TIMES KI
+0x12209,True,False,False,True,True,False,True,True,
+0x1220a,True,False,False,True,True,False,True,True,LU2 TIMES LAGAB
+0x1220b,True,False,False,True,True,False,True,True,LU2 TIMES ME PLUS EN
+0x1220c,True,False,False,True,True,False,True,True,LU2 TIMES NE
+0x1220d,True,False,False,True,True,False,True,True,
+0x1220e,True,False,False,True,True,False,True,True,
+0x1220f,True,False,False,True,True,False,True,True,LU2 TIMES SIK2 PLUS BU
+0x12210,True,False,False,True,True,False,True,True,LU2 TIMES TUG2
+0x12211,True,False,False,True,True,False,True,True,LU2 TENU
+0x12212,True,False,False,True,True,False,True,True,LU2 CROSSING LU2
+0x12213,True,False,False,True,True,False,True,True,LU2 OPPOSING LU2
+0x12214,True,False,False,True,True,False,True,True,LU2 SQUARED
+0x12215,True,False,False,True,True,False,True,True,LU2 SHESHIG
+0x12216,True,False,False,True,True,True,True,True,LU3
+0x12217,True,True,True,True,True,True,True,True,LUGAL & GAN
+0x12218,True,False,False,True,True,False,True,True,LUGAL OVER LUGAL
+0x12219,True,False,False,True,True,False,True,True,LUGAL OPPOSING LUGAL
+0x1221a,True,False,False,True,True,True,True,True,
+0x1221b,True,True,True,True,True,True,True,True,LUH
+0x1221c,True,True,False,True,True,True,True,True,LUL
+0x1221d,True,True,True,True,True,True,True,True,LUM
+0x1221e,True,False,False,True,True,False,True,True,LUM OVER LUM & SHU2
+0x1221f,True,False,False,True,True,False,True,True,LUM OVER LUM GAR OVER GAR
+0x12220,True,True,True,True,True,True,True,True,MA
+0x12221,True,False,False,True,True,False,True,True,
+0x12222,True,False,False,True,True,True,True,True,MA GUNU
+0x12223,True,True,True,True,True,True,True,True,MA2 & MUG
+0x12224,True,True,True,True,True,True,True,True,MAH
+0x12225,True,True,True,True,True,True,True,True,MAR
+0x12226,True,True,True,True,True,True,True,True,MASH
+0x12227,True,True,True,True,True,True,True,True,MASH2
+0x12228,True,True,True,True,True,True,True,True,ME
+0x12229,True,True,True,True,True,True,True,True,MES
+0x1222a,True,True,True,True,True,True,True,True,MI
+0x1222b,True,True,False,True,True,True,True,True,MIN
+0x1222c,True,True,True,True,True,True,True,True,MU
+0x1222d,True,True,False,True,True,True,True,True,MU OVER MU
+0x1222e,True,True,False,True,True,True,True,True,MUG
+0x1222f,True,False,True,True,True,True,True,True,MUG GUNU
+0x12230,True,False,False,True,True,True,True,True,MUNSUB
+0x12231,True,False,False,True,True,False,True,True,MURGU2
+0x12232,True,True,False,True,True,True,True,True,MUSH
+0x12233,True,False,False,True,True,False,True,True,
+0x12234,True,False,False,True,True,False,True,True,
+0x12235,True,False,False,True,True,False,True,True,
+0x12236,True,False,False,True,True,False,True,True,MUSH OVER MUSH
+0x12237,True,False,False,True,True,False,True,True,MUSH OVER MUSH TIMES A PLUS NA
+0x12238,True,False,False,True,True,False,True,True,MUSH CROSSING MUSH
+0x12239,True,True,True,True,True,True,True,True,MUSH3
+0x1223a,True,False,False,True,True,True,True,True,MUSH3 TIMES A
+0x1223b,True,False,False,True,True,True,True,True,MUSH3 TIMES A PLUS DI
+0x1223c,True,False,False,True,True,False,True,True,
+0x1223d,True,True,False,True,True,True,True,True,MUSH3 GUNU
+0x1223e,True,True,True,True,True,True,True,True,NAA
+0x1223f,True,True,False,True,True,True,True,True,NA2
+0x12240,True,True,False,True,True,True,True,True,NAGA
+0x12241,True,False,False,True,True,False,True,True,NAGA INVERTED
+0x12242,True,False,False,True,True,False,True,True,NAGA TIMES SHU TENU
+0x12243,True,False,False,True,True,False,True,True,NAGA OPPOSING NAGA
+0x12244,True,True,True,True,True,True,True,True,NAGAR & ZA TENU
+0x12245,True,False,False,True,True,True,True,True,
+0x12246,True,True,True,True,True,True,True,True,NAM & ERIN2
+0x12247,True,False,False,True,True,True,True,True,NAM2
+0x12248,True,True,True,True,True,True,True,True,NE
+0x12249,True,False,False,True,True,False,True,True,NE TIMES A
+0x1224a,True,False,False,True,True,False,True,True,NE TIMES UD
+0x1224b,True,True,True,True,True,True,True,True,NE SHESHIG
+0x1224c,True,True,True,True,True,True,True,True,NI
+0x1224d,True,False,False,True,True,False,True,True,NI TIMES E
+0x1224e,True,False,False,True,True,True,True,True,NI2
+0x1224f,True,True,True,True,True,True,True,True,NIM
+0x12250,True,True,False,True,True,True,True,True,NIM TIMES GAN2 TENU
+0x12251,True,False,False,True,True,True,True,True,NIM TIMES GAR PLUS GAN2 TENU
+0x12252,True,False,False,True,True,True,True,True,NINDA2
+0x12253,True,True,False,True,True,True,True,True,NINDA2 TIMES AN
+0x12254,True,False,False,True,True,False,True,True,NINDA2 TIMES ASH
+0x12255,True,False,False,True,True,False,True,True,NINDA2 TIMES ASH PLUS ASH
+0x12256,True,False,False,True,True,False,True,True,NINDA2 TIMES GUD
+0x12257,True,False,False,True,True,False,True,True,NINDA2 TIMES ME PLUS GAN2 TENU
+0x12258,True,True,False,True,True,True,True,True,NINDA2 TIMES NE
+0x12259,True,False,False,True,True,True,True,True,NINDA2 TIMES NUN
+0x1225a,True,False,False,True,True,True,True,True,NINDA2 TIMES SHE
+0x1225b,True,False,False,True,True,True,True,True,NINDA2 TIMES SHE PLUS A AN
+0x1225c,True,False,False,True,True,False,True,True,NINDA2 TIMES SHE PLUS ASH
+0x1225d,True,False,False,True,True,False,True,True,NINDA2 TIMES SHE PLUS ASH PLUS ASH
+0x1225e,True,False,False,True,True,True,True,True,NINDA2 TIMES U2 PLUS ASH
+0x1225f,True,False,False,True,True,False,True,True,
+0x12260,True,False,False,True,True,True,True,True,NISAG (read NISAG2)
+0x12261,True,True,True,True,True,True,True,True,NU
+0x12262,True,False,False,True,True,True,True,True,NU11
+0x12263,True,True,True,True,True,True,True,True,NUN
+0x12264,True,False,False,True,True,False,True,True,NUN LAGAR TIMES GAR
+0x12265,True,False,False,True,True,False,True,True,NUN LAGAR TIMES USH
+0x12266,True,False,False,True,True,True,True,True,NUN LAGAR TIMES SAL
+0x12267,True,False,False,True,True,False,True,True,NUN LAGAR TIMES SAL OVER NUN LAGAR TIMES SAL
+0x12268,True,False,False,True,True,False,True,True,
+0x12269,True,False,False,True,True,False,True,True,NUN TENU
+0x1226a,True,True,False,True,True,True,True,True,NUN OVER NUN
+0x1226b,True,False,False,True,True,False,True,True,NUN CROSSING NUN
+0x1226c,True,False,False,True,True,False,True,True,NUN CROSSING NUN LAGAR OVER LAGAR
+0x1226d,True,True,True,True,True,True,True,True,NUNUZ
+0x1226e,True,False,False,True,True,True,True,True,NUNUZ AB2 TIMES ASHGAB
+0x1226f,True,False,False,True,True,True,True,True,NUNUZ AB2 TIMES BI
+0x12270,True,False,False,True,True,False,True,True,NUNUZ AB2 TIMES DUG
+0x12271,True,False,False,True,True,False,True,True,NUNUZ AB2 TIMES GUD
+0x12272,True,False,False,True,True,False,True,True,NUNUZ AB2 TIMES IGI GUNU
+0x12273,True,False,False,True,True,False,True,True,NUNUZ AB2 TIMES KAD3
+0x12274,True,False,False,True,True,False,True,True,NUNUZ AB2 TIMES LA
+0x12275,True,False,False,True,True,False,True,True,NUNUZ AB2 TIMES NE
+0x12276,True,False,False,True,True,False,True,True,NUNUZ AB2 TIMES SILA3
+0x12277,True,False,False,True,True,False,True,True,
+0x12278,True,False,False,True,True,False,True,True,NUNUZ KISIM5 TIMES BI
+0x12279,True,False,False,True,True,False,True,True,NUNUZ KISIM5 TIMES BI U
+0x1227a,True,True,True,True,True,True,True,True,PA
+0x1227b,True,True,False,True,True,True,True,True,PAD
+0x1227c,True,True,False,True,True,True,True,True,PAN
+0x1227d,True,True,False,True,True,True,True,True,PAP & E
+0x1227e,True,True,False,True,True,True,True,True,PESH2
+0x1227f,True,True,True,True,True,True,True,True,PI
+0x12280,True,False,False,True,True,False,True,True,PI TIMES A
+0x12281,True,False,False,True,True,False,True,True,PI TIMES AB
+0x12282,True,False,False,True,True,False,True,True,PI TIMES BI
+0x12283,True,False,False,True,True,False,True,True,PI TIMES BU
+0x12284,True,False,False,True,True,False,True,True,PI TIMES E
+0x12285,True,False,False,True,True,False,True,True,PI TIMES I
+0x12286,True,False,False,True,True,False,True,True,PI TIMES IB
+0x12287,True,False,False,True,True,False,True,True,PI TIMES U
+0x12288,True,False,False,True,True,False,True,True,
+0x12289,True,False,False,True,True,False,True,True,PI TIMES U2
+0x1228a,True,False,False,True,True,True,True,True,PIRIG
+0x1228b,True,False,False,True,True,True,True,True,PIRIG TIMES KAL
+0x1228c,True,True,True,True,True,True,True,True,PIRIG TIMES UD
+0x1228d,True,True,True,True,True,True,True,True,PIRIG TIMES ZA
+0x1228e,True,False,False,True,True,False,True,True,PIRIG OPPOSING PIRIG
+0x1228f,True,True,True,True,True,True,True,True,RA
+0x12290,True,False,False,True,True,True,True,True,RAB
+0x12291,True,True,True,True,True,True,True,True,RI
+0x12292,True,True,True,True,True,True,True,True,RU
+0x12293,True,True,True,True,True,True,True,True,SA
+0x12294,True,False,False,True,True,False,True,True,SAG NUTILLU
+0x12295,True,True,True,True,True,True,True,True,SAG
+0x12296,True,False,False,True,True,False,True,True,SAG TIMES A
+0x12297,True,False,False,True,True,False,True,True,SAG TIMES DU
+0x12298,True,False,False,True,True,False,True,True,
+0x12299,True,False,False,True,True,False,True,True,SAG TIMES HA
+0x1229a,True,False,False,True,True,False,True,True,SAG TIMES KAK
+0x1229b,True,False,False,True,True,False,True,True,
+0x1229c,True,False,False,True,True,False,True,True,SAG TIMES LUM
+0x1229d,True,False,False,True,True,True,True,True,SAG TIMES MI
+0x1229e,True,False,False,True,True,False,True,True,SAG TIMES NUN
+0x1229f,True,False,False,True,True,False,True,True,SAG TIMES SAL
+0x122a0,True,False,False,True,True,True,True,True,SAG TIMES SHID
+0x122a1,True,False,False,True,True,False,True,True,
+0x122a2,True,False,False,True,True,True,True,True,SAG TIMES U2
+0x122a3,True,False,False,True,True,False,True,True,SAG TIMES UB
+0x122a4,True,False,False,True,True,False,True,True,SAG TIMES UM
+0x122a5,True,False,False,True,True,False,True,True,SAG TIMES UR
+0x122a6,True,False,False,True,True,False,True,True,SAG TIMES USH
+0x122a7,True,False,False,True,True,False,True,True,SAG OVER SAG
+0x122a8,True,True,True,True,True,True,True,True,SAG GUNU
+0x122a9,True,True,True,True,True,True,True,True,SAL
+0x122aa,True,False,False,True,True,False,True,True,SAL LAGAB TIMES ASH2
+0x122ab,True,False,False,True,True,False,True,True,
+0x122ac,True,True,True,True,True,True,True,True,SAR
+0x122ad,True,True,True,True,True,True,True,True,SHA
+0x122ae,True,True,True,True,True,True,True,True,SHA3
+0x122af,True,False,False,True,True,True,True,True,SHA3 TIMES A
+0x122b0,True,False,False,True,True,False,True,True,SHA3 TIMES BAD
+0x122b1,True,False,False,True,True,False,True,True,SHA3 TIMES GISH
+0x122b2,True,False,False,True,True,False,True,True,SHA3 TIMES NE
+0x122b3,True,False,False,True,True,False,True,True,SHA3 TIMES SHU2
+0x122b4,True,False,False,True,True,False,True,True,SHA3 TIMES TUR
+0x122b5,True,False,False,True,True,False,True,True,SHA3 TIMES U
+0x122b6,True,False,False,True,True,False,True,True,SHA3 TIMES U PLUS A
+0x122b7,True,True,True,True,True,True,True,True,SHA6 (bad!)
+0x122b8,True,False,False,True,True,False,True,True,
+0x122b9,True,True,False,True,True,True,True,True,SHAR2
+0x122ba,True,True,True,True,True,True,True,True,SHE
+0x122bb,True,True,True,True,True,True,True,True,SHE HU
+0x122bc,True,False,False,True,True,False,True,True,SHE OVER SHE GAD OVER GAD GAR OVER GAR
+0x122bd,True,False,False,True,True,False,True,True,SHE OVER SHE TAB OVER TAB GAR OVER GAR
+0x122be,True,False,False,True,True,True,True,True,SHEG9
+0x122bf,True,True,True,True,True,True,True,True,SHEN
+0x122c0,True,True,True,True,True,True,True,True,SHESH
+0x122c1,True,False,False,True,True,True,True,True,SHESH2 & SUHUR
+0x122c2,True,False,False,True,True,True,True,True,SHESHLAM
+0x122c3,True,True,False,True,True,True,True,True,SHID
+0x122c4,True,False,False,True,True,True,True,True,SHID TIMES A
+0x122c5,True,False,False,True,True,False,True,True,SHID TIMES IM
+0x122c6,True,True,True,True,True,True,True,True,SHIM
+0x122c7,True,False,False,True,True,True,True,True,SHIM TIMES A
+0x122c8,True,False,False,True,True,False,True,True,SHIM TIMES BAL
+0x122c9,True,False,False,True,True,False,True,True,SHIM TIMES BULUG
+0x122ca,True,False,False,True,True,False,True,True,SHIM TIMES DIN
+0x122cb,True,True,False,True,True,True,True,True,SHIM TIMES GAR
+0x122cc,True,False,False,True,True,False,True,True,SHIM TIMES IGI
+0x122cd,True,False,False,True,True,False,True,True,SHIM TIMES IGI GUNU
+0x122ce,True,False,False,True,True,False,True,True,SHIM TIMES KUSHU2
+0x122cf,True,False,False,True,True,False,True,True,SHIM TIMES LUL
+0x122d0,True,False,False,True,True,False,True,True,SHIM TIMES MUG
+0x122d1,True,False,False,True,True,False,True,True,SHIM TIMES SAL
+0x122d2,True,True,False,True,True,True,True,True,SHINIG
+0x122d3,True,True,True,True,True,True,True,True,SHIR
+0x122d4,True,False,False,True,True,False,True,True,SHIR TENU
+0x122d5,True,False,False,True,True,False,True,True,
+0x122d6,True,True,False,True,True,False,True,True,SHITA & GISH
+0x122d7,True,True,True,True,True,True,True,True,SHU
+0x122d8,True,False,False,True,True,False,True,True,
+0x122d9,True,True,False,True,True,True,True,True,SHU2
+0x122da,True,True,True,True,True,True,True,True,SHUBUR
+0x122db,True,True,True,True,True,True,True,True,SI
+0x122dc,True,True,False,True,True,True,True,True,SI GUNU
+0x122dd,True,True,True,True,True,True,True,True,SIG
+0x122de,True,True,True,True,True,True,True,True,SIG4
+0x122df,True,False,False,True,True,False,True,True,SIG4 OVER SIG4 SHU2
+0x122e0,True,True,True,True,True,True,True,True,SIK2
+0x122e1,True,True,True,True,True,True,True,True,SILA3
+0x122e2,True,True,True,True,True,True,True,True,SU OVER SU
+0x122e3,True,False,False,True,True,False,True,True,
+0x122e4,True,True,False,True,True,True,True,True,SUD
+0x122e5,True,False,False,True,True,True,True,True,SUD2
+0x122e6,True,False,False,True,True,True,True,True,SUHUR
+0x122e7,True,True,True,True,True,True,True,True,SUM
+0x122e8,True,False,False,True,True,False,True,True,SUMASH
+0x122e9,True,True,False,True,True,True,True,True,SUR
+0x122ea,True,False,False,True,True,False,True,True,SUR9
+0x122eb,True,True,True,True,True,True,True,True,TA
+0x122ec,True,False,False,True,True,True,True,True,TA ASTERISK
+0x122ed,True,True,False,True,True,True,True,True,TA TIMES HI
+0x122ee,True,False,False,True,True,False,True,True,TA TIMES MI
+0x122ef,True,False,False,True,True,True,True,True,TA GUNU
+0x122f0,True,True,False,True,True,True,True,True,TAB
+0x122f1,True,False,False,True,True,False,True,True,TAB OVER TAB NI OVER NI DISH OVER DISH
+0x122f2,True,False,False,True,True,False,True,True,TAB SQUARED
+0x122f3,True,True,True,True,True,True,True,True,TAG
+0x122f4,True,False,False,True,True,False,True,True,
+0x122f5,True,False,False,True,True,False,True,True,TAG TIMES GUD
+0x122f6,True,False,False,True,True,False,True,True,
+0x122f7,True,False,False,True,True,False,True,True,TAG TIMES SHU
+0x122f8,True,False,False,True,True,False,True,True,TAG TIMES TUG2
+0x122f9,True,False,False,True,True,False,True,True,TAG TIMES UD
+0x122fa,True,True,False,True,True,True,True,True,TAK4
+0x122fb,True,True,True,True,True,True,True,True,TAR
+0x122fc,True,True,True,True,True,True,True,True,TE
+0x122fd,True,False,False,True,True,True,True,True,TE GUNU
+0x122fe,True,True,True,True,True,True,True,True,TI TENU
+0x122ff,True,False,False,True,True,False,True,True,
+0x12300,True,False,False,True,True,True,True,True,TIL
+0x12301,True,True,True,True,True,True,True,True,TIR
+0x12302,True,False,False,True,True,False,True,True,
+0x12303,True,False,False,True,True,False,True,True,TIR OVER TIR
+0x12304,True,False,False,True,True,False,True,True,TIR OVER TIR GAD OVER GAD GAR OVER GAR
+0x12305,True,True,True,True,True,True,True,True,TU
+0x12306,True,True,True,True,True,True,True,True,TUG2
+0x12307,True,True,False,True,True,True,True,True,TUK
+0x12308,True,True,True,True,True,True,True,True,TUM
+0x12309,True,True,True,True,True,True,True,True,TUR
+0x1230a,True,False,False,True,True,False,True,True,TUR OVER TUR ZA OVER ZA
+0x1230b,True,True,True,True,True,True,True,True,U
+0x1230c,True,True,True,True,True,True,True,True,U GUD
+0x1230d,True,True,True,True,True,True,True,True,U U U
+0x1230e,True,False,False,True,True,False,True,True,U OVER U PA OVER PA GAR OVER GAR
+0x1230f,True,False,False,True,True,False,True,True,U OVER U SUR OVER SUR
+0x12310,True,False,False,True,True,False,True,True,U OVER U U REVERSED OVER U REVERSED
+0x12311,True,True,True,True,True,True,True,True,U2
+0x12312,True,True,True,True,True,True,True,True,UB
+0x12313,True,True,True,True,True,True,True,True,UD
+0x12314,True,True,True,True,True,True,True,True,UD KUSHU2
+0x12315,True,False,False,True,True,False,True,True,
+0x12316,True,False,False,True,True,False,True,True,UD TIMES MI
+0x12317,True,False,False,True,True,True,True,True,UD TIMES U PLUS U PLUS U
+0x12318,True,True,True,True,True,True,True,True,UD TIMES U PLUS U PLUS U GUNU
+0x12319,True,False,False,True,True,False,True,True,UD GUNU
+0x1231a,True,True,True,True,True,False,True,True,UD SHESHIG
+0x1231b,True,False,False,True,True,False,True,True,UD SHESHIG TIMES BAD
+0x1231c,True,False,True,True,True,True,True,True,UDUG
+0x1231d,True,True,True,True,True,True,True,True,UM
+0x1231e,True,False,False,True,True,False,True,True,
+0x1231f,True,False,False,True,True,False,True,True,UM TIMES ME PLUS DA
+0x12320,True,False,False,True,True,False,True,True,
+0x12321,True,False,False,True,True,False,True,True,UM TIMES U
+0x12322,True,True,False,True,True,True,True,True,UMBIN
+0x12323,True,False,False,True,True,True,True,True,UMUM
+0x12324,True,True,False,True,True,True,True,True,UMUM TIMES KASKAL
+0x12325,True,False,False,True,True,False,True,True,UMUM TIMES PA
+0x12326,True,True,True,True,True,True,True,True,UN
+0x12327,True,False,False,True,True,False,True,True,
+0x12328,True,True,True,True,True,True,True,True,UR
+0x12329,True,False,False,True,True,False,True,True,UR CROSSING UR
+0x1232a,True,False,False,True,True,False,True,True,UR SHESHIG
+0x1232b,True,True,True,True,True,True,True,True,UR2
+0x1232c,True,False,False,True,True,False,True,True,UR2 TIMES A PLUS HA
+0x1232d,True,False,False,True,True,False,True,True,
+0x1232e,True,False,False,True,True,False,True,True,UR2 TIMES AL
+0x1232f,True,False,False,True,True,False,True,True,UR2 TIMES HA
+0x12330,True,False,False,True,True,False,True,True,UR2 TIMES NUN
+0x12331,True,False,False,True,True,False,True,True,UR2 TIMES U2
+0x12332,True,False,False,True,True,True,True,True,UR2 TIMES U2 PLUS ASH
+0x12333,True,False,False,True,True,False,True,True,
+0x12334,True,True,False,True,True,True,True,True,UR4
+0x12335,True,True,False,True,True,True,True,True,URI
+0x12336,True,False,False,True,True,True,True,True,URI3
+0x12337,True,True,True,True,True,True,True,True,URU
+0x12338,True,False,False,True,True,False,True,True,URU TIMES A
+0x12339,True,False,False,True,True,False,True,True,
+0x1233a,True,True,False,True,True,True,True,True,URU TIMES BAR
+0x1233b,True,False,False,True,True,False,True,True,
+0x1233c,True,False,False,True,True,False,True,True,URU TIMES GA
+0x1233d,True,False,False,True,True,False,True,True,
+0x1233e,True,False,False,True,True,False,True,True,URU TIMES GAN2 TENU
+0x1233f,True,False,False,True,True,True,True,True,URU TIMES GAR
+0x12340,True,False,False,True,True,True,True,True,URU TIMES GU
+0x12341,True,False,False,True,True,False,True,True,URU TIMES HA
+0x12342,True,True,False,True,True,True,True,True,URU TIMES IGI
+0x12343,True,False,False,True,True,False,True,True,
+0x12344,True,False,False,True,True,False,True,True,
+0x12345,True,False,False,True,True,False,True,True,
+0x12346,True,False,False,True,True,False,True,True,
+0x12347,True,True,False,True,True,True,True,True,URU TIMES MIN
+0x12348,True,False,False,True,True,False,True,True,
+0x12349,True,False,False,True,True,False,True,True,
+0x1234a,True,False,False,True,True,False,True,True,
+0x1234b,True,False,False,True,True,False,True,True,URU TIMES TU
+0x1234c,True,False,False,True,True,False,True,True,URU TIMES U PLUS GUD
+0x1234d,True,False,False,True,True,True,True,True,URU TIMES UD
+0x1234e,True,True,False,True,True,True,True,True,URU TIMES URUDA
+0x1234f,True,True,False,True,True,True,True,True,URUDA
+0x12350,True,False,False,True,True,True,True,True,URUDA TIMES U
+0x12351,True,True,True,True,True,True,True,True,USH
+0x12352,True,False,False,True,True,True,True,True,USH TIMES A
+0x12353,True,False,False,True,True,False,True,True,USH TIMES KU
+0x12354,True,False,False,True,True,False,True,True,
+0x12355,True,False,False,True,True,False,True,True,USH TIMES TAK4
+0x12356,True,False,False,True,True,False,True,True,
+0x12357,True,False,False,True,True,True,True,True,USH2
+0x12358,True,False,False,True,True,False,True,True,
+0x12359,True,False,False,True,True,False,True,True,UTUKI
+0x1235a,True,True,False,True,True,True,True,True,UZ3
+0x1235b,True,False,False,True,True,False,True,True,UZ3 TIMES KASKAL
+0x1235c,True,True,True,True,True,True,True,True,UZU
+0x1235d,True,True,True,True,True,True,True,True,ZA
+0x1235e,True,False,False,True,True,False,True,True,ZA TENU
+0x1235f,True,False,False,True,True,False,True,True,ZA SQUARED TIMES KUR
+0x12360,True,True,False,True,True,True,True,True,ZAG
+0x12361,True,False,False,True,True,False,True,True,
+0x12362,True,True,True,True,True,True,True,True,ZE2
+0x12363,True,True,True,True,True,True,True,True,ZI
+0x12364,True,True,False,True,True,True,True,True,ZI OVER ZI & A
+0x12365,True,False,False,True,True,True,True,True,ZI3
+0x12366,True,False,False,True,True,True,True,True,ZIB
+0x12367,True,False,False,True,True,False,True,True,ZIB KABA TENU
+0x12368,True,False,False,True,True,True,True,True,ZIG
+0x12369,True,False,False,True,True,True,True,True,ZIZ2
+0x1236a,True,True,True,True,True,True,True,True,ZU
+0x1236b,True,False,False,True,True,True,True,True,ZU5
+0x1236c,True,False,False,True,True,True,True,True,ZU5 TIMES A
+0x1236d,True,False,False,True,True,False,True,True,ZUBUR
+0x1236e,True,True,True,True,True,True,True,True,ZUM
+0x1236f,True,False,False,True,False,False,True,False,
+0x12370,True,False,False,True,False,False,True,False,
+0x12371,True,False,False,True,False,False,True,False,AB2 TIMES A
+0x12372,True,False,False,True,False,False,True,False,
+0x12373,True,False,False,True,False,False,True,False,
+0x12374,True,False,False,True,False,False,True,False,
+0x12375,True,False,False,True,False,False,True,False,DISH PLUS SHU
+0x12376,True,False,False,True,False,False,True,False,
+0x12377,True,False,False,True,False,False,True,False,
+0x12378,True,False,False,True,False,False,True,False,
+0x12379,True,False,False,True,False,False,True,False,
+0x1237a,True,False,False,True,False,False,True,False,
+0x1237b,True,False,False,True,False,False,True,False,GE22
+0x1237c,True,True,True,True,False,False,True,False,
+0x1237d,True,False,False,True,False,False,True,False,SIGN HUSH
+0x1237e,True,False,False,True,False,False,True,False,
+0x1237f,True,False,False,True,False,False,True,False,
+0x12380,True,False,False,True,False,False,True,False,KA TIMES GISH
+0x12381,True,False,False,True,False,False,True,False,
+0x12382,True,False,False,True,False,False,True,False,
+0x12383,True,False,False,True,False,False,True,False,
+0x12384,True,False,False,True,False,False,True,False,KA TIMES PA
+0x12385,True,False,False,True,False,False,True,False,
+0x12386,True,False,False,True,False,False,True,False,KA TIMES TU
+0x12387,True,False,False,True,False,False,True,False,KA TIMES UR2
+0x12388,True,False,False,True,False,False,True,False,LAGAB TIMES GI
+0x12389,True,False,False,True,False,False,True,False,
+0x1238a,True,False,False,True,False,False,True,False,
+0x1238b,True,False,False,True,False,False,True,False,
+0x1238c,True,True,True,True,False,False,True,False,MESH
+0x1238d,True,False,False,True,False,False,True,False,
+0x1238e,True,True,True,True,False,False,True,False,
+0x1238f,True,True,True,True,False,False,True,False,
+0x12390,True,False,False,True,False,False,True,False,
+0x12391,True,False,False,True,False,False,True,False,NINDA2 TIMES BAL
+0x12392,True,False,False,True,False,False,True,False,NINDA2 TIMES GI
+0x12393,True,False,False,True,False,False,True,False,
+0x12394,True,False,False,True,False,False,True,False,
+0x12395,True,False,False,True,False,False,True,False,
+0x12396,True,False,False,True,False,False,True,False,
+0x12397,True,False,False,True,False,False,True,False,SIGN TI2
+0x12398,True,False,False,True,False,False,True,False,UM TIMES ME
+0x12399,True,False,False,True,False,False,True,False,U U
+0x12146,True,True,True,True,True,True,True,True,IGI
+0x12313,True,True,True,True,True,True,True,True,UD & SAL & HUB2
