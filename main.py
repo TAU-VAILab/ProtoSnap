@@ -13,10 +13,10 @@ def get_opts(is_main=True):
     parser = ArgumentParser()
     if is_main:
         parser.add_argument('prompt', type=str)
-        parser.add_argument('--target_image_path', type=str, default="/home/mikulinsky/CLIPasso/target_images")
+        parser.add_argument('--target_image_path', type=str, default="target_images")
         parser.add_argument('--output_folder', type=str, default=None)
     else:
-        parser.add_argument('--samples_df_path', type=str, default='/home/mikulinsky/yunus_data_ebl_train.csv')
+        parser.add_argument('--samples_df_path', type=str, default='test_set/metadata.csv')
         parser.add_argument('--ignore_errors', action='store_true', default=False)
         parser.add_argument('--n_rows', type=int, default=None)
         parser.add_argument('--shuffle', action='store_true', default=False)
