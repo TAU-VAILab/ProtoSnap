@@ -27,7 +27,7 @@ pip install -r requirements.txt
 ```
 To download the weights:
 ```bash
-gdown  'https://drive.google.com/uc?export=download&id=1x2RlD4jk3O7QFZ6z4ApkSe4RWNnJq_K_'
+gdown 'https://drive.google.com/uc?export=download&id=1x2RlD4jk3O7QFZ6z4ApkSe4RWNnJq_K_'
 unzip weights.zip -d weights
 rm weights.zip
 ```
