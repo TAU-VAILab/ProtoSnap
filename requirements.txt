@@ -2,12 +2,13 @@ pillow
 pandas
 matplotlib
 tqdm
-numpy
+numpy==1.26.4
 multiprocess
-sklearn
+scikit-learn
 torch==2.2.1
 torchvision==0.17.1
-opencv-python==4.9.0.80
-git+https://github.com/huggingface/diffusers.git
+opencv-python==4.8.0.76
+git+https://github.com/huggingface/diffusers.git@f57e7bd92c57bf59cba45496fc85ea77797bedcc
+transformers
 reportlab
 gdown

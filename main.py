@@ -23,7 +23,7 @@ def get_opts(is_main=True):
         parser.add_argument('--repeats', type=int, default=1)
     parser.add_argument('--learning_rate', '-lr', type=float, default=0.01)
     parser.add_argument('--iter_num', type=int, default=100)
-    parser.add_argument('--viz_every', type=int, default=10)
+    parser.add_argument('--viz_every', type=int, default=100)
     parser.add_argument('--ransac_k', type=int, default=5)
     parser.add_argument('--ransac_threshold', type=float, default=50.)
     parser.add_argument('--init_tries', '-t', type=int, default=8)

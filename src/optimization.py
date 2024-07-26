@@ -103,7 +103,7 @@ class OptimizationLoss(nn.Module):
         return loss, losses_to_plot
 
 
-def optimize(args, data, desc=None, initial_transform=None, rep=None):
+def optimize(args, data, initial_transform=None, rep=None):
 
     loss_func = OptimizationLoss(args, data)
 
@@ -130,7 +130,7 @@ def optimize(args, data, desc=None, initial_transform=None, rep=None):
 
     all_losses_to_plot = []
     global_transform_norms = []
-    for itr in tqdm(range(args.iter_num), desc=desc):
+    for itr in tqdm(range(args.iter_num), desc="Loacal optimization"):
         if itr == 0:
             data.visualize(global_transform, stroke_transforms, itr, output_path)
             # ^ for initial viz, show before optimization step

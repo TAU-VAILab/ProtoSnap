@@ -5,6 +5,8 @@ import torch
 import matplotlib.pyplot as plt
 import re
 from pathlib import Path
+import torch.nn.functional as F
+import cv2
 
 from src.utils import get_proto_img, COLORS
 from src.geometry import GroupedPoints
@@ -29,6 +31,7 @@ class Prototype:
             self.get_connectivity(points_df, con_df, line_weighting=args.line_weighting)
 
         self.labels = [int(row.label.split()[1]) for _, row in points_df.iterrows()]
+        self.proto = proto
 
     @staticmethod
     def global_adjustment(value, start, scale, padding=10):
@@ -64,6 +67,7 @@ class Prototype:
         return connectivity, connectivity_weights
 
 
+
 class Data:
     def __init__(self, args, dift):
         self.prompt = args.prompt
@@ -75,22 +79,31 @@ class Data:
         self.target = self._load_target(target_image_path)
         self.name = f"{target_image_path.stem}_{args.suffix}"
 
-        df = pd.read_csv(args.df_filename)
-        proto, cs, rs, orig_w, orig_h = get_proto_img(args, self.prompt, df)
-
         prototype = Prototype(args, args.prompt)
-        self.points, self.connectivity, self.connectivity_weights, self.labels = \
-            prototype.points, prototype.connectivity, prototype.connectivity_weights, prototype.labels
+        self.points, self.connectivity, self.connectivity_weights, self.labels, self.proto = \
+            prototype.points, prototype.connectivity, prototype.connectivity_weights, prototype.labels, prototype.proto
 
-        self.proto = proto
+
         self.scatter_size = args.scatter_size
         self.line_alpha = args.line_alpha
 
         if dift is not None:
             dift_wrapper = DiftWrapper(args, dift)
-            self.saliency_mask = dift_wrapper.get_saliency_mask(self.target)  # H, W
             self.sim_tensor = dift_wrapper.get_similaritity_tensor(self.proto, self.target)
             # H, W, H, W
+            
+            sim_res = self.sim_tensor.shape[0]
+            mask = np.uint8(self.proto.resize((sim_res, sim_res)).convert('L')) != 255
+            deltas = self.sim_tensor[mask, :, :].mean(dim=0) - self.sim_tensor[~mask, :, :].mean(dim=0)
+            deltas -= deltas.min()
+            deltas /= deltas.max()
+            clahe = cv2.createCLAHE(clipLimit=10.0, tileGridSize=(2, 2))
+            eq = clahe.apply(np.uint8(deltas.cpu() * 255)) # histogram-equalized
+            eq = eq - eq.mean()
+            eq = eq.clip(min=0.)
+            eq = eq / eq.max()
+            self.saliency_mask = torch.tensor(eq,
+                    dtype=torch.float32, device=self.sim_tensor.device) # H, W
 
     def _load_target(self, target_images_path):
         return Image.open(target_images_path).resize((self.img_size, self.img_size))
@@ -121,6 +134,10 @@ class Data:
         src_points, dst_points, dst_points_global, dst_points_init = \
             gpoints.get_viz_points(global_transform, stroke_transforms)
         saliency_mask = self.saliency_mask.cpu()
+        # for visualization: needs to be right size
+        saliency_mask = F.interpolate(saliency_mask[None, None],
+                        size=(self.img_size, self.img_size),
+                        mode='bilinear', align_corners=True)[0, 0]
 
         fig, axs = plt.subplots(3, 3, figsize=(8, 6))
         plt.tight_layout()
