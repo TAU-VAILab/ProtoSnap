@@ -53,6 +53,20 @@ Arguments:
 * ```--samples_df_path``` A metadata csv for the requested samples. By default ```test_set/metadata.csv```
 * ```--font_dir```, ```--con_dir``` and ```--output_folder``` same as for a single image
 
+### Generate images with ControlNet
+
+To generate images using our fine-tunes ControlNet:
+```bash
+python gen_images_with_cn.py <sign_name> --num_of_samples <num_of_samples>
+```
+The script generats controls, by using available skeletons, and applying small agumentations on each stroke, to create diversity.
+Then each control is used to generate an image, using ControlNet.
+
+Arguments:
+* ```sign_name``` The name of the sign to generate (such as A, AN, MA, etc.)
+* ```--num_of_samples``` Number of samples to generate. 50 by default
+* ```--output_path``` The results will be saved under ```<output_path>/<sign_name>/images```. The controls udes for generation will be saved under ```<output_path>/<sign_name>/controls```
+
 ## Citation
 If you find this project useful, you may cite us as follows:
 ...
