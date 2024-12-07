@@ -10,6 +10,12 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
   <link rel="stylesheet" href="style.css">
+    <style>
+    .container {
+      max-width: 800px;  /* Set the max width to 600px */
+      margin: 0 auto;    /* Center the container */
+    }
+  </style>
   <title>ProtoSnap: Prototype Alignment for Cuneiform Signs</title>
 </head>
 
@@ -76,19 +82,19 @@
     <!-- teaser -->
     <div class='row justify-content-center'>
         <img src="repo_images/teaser.png" width="800">
-      <div class='text-center col-md-12 col-sm-12 col-xs-12 align-middle mt-1'>
-        <p class='h6'>
-          <em>TL;DR: Given a target image of a cuneiform sign, and a correspoiding prototype, we align the skeletong with the target image.</em>
+      <div class='text-center col-md-12 col-sm-12 col-xs-12 align-middle mt-1' >
+        <p class='h6 container'>
+          <em>TL;DR: Given a target image of a cuneiform sign, and a corresponding prototype, we align the skeleton with the target image ("snapping" the prototype into place).</em>
         </p>
         <hr>
       </div>
     </div>
 
     <!-- abstract -->
-    <div class="row">
+    <div class="row container">
       <div class="col-md-12 col-sm-12 col-xs-12">
-        <p class="h4 font-weight-bold title">Abstract</p>
-        <p class="abstract"><!--style="line-height: 1;">-->
+        <p class="h4 font-weight-bold title" style="text-align: center;">Abstract</p>
+        <p class="abstract" style="text-align: justify;"><!--style="line-height: 1;">-->
 The cuneiform writing system served as the medium for transmitting knowledge
 in the ancient Near East for a period of over three thousand years. Cuneiform
 signs have a complex internal structure which is the subject of expert paleographic
@@ -113,6 +119,12 @@ foreseeing their use in a variety of applications in the digital humanities.
 		<div class="row justify-content-center">
             <img src="repo_images/examples.png" width="800">
         </div>
+          <div class='text-center col-md-12 col-sm-12 col-xs-12 align-middle mt-1' >
+        <p class='h6 container'>
+          <em>Examples of our method: aligning the prototypes (first row) to target cuneiform
+images (second row), both after the global alignment and the final result after refinement</em>
+        </p>
+      </div>
         <hr>
       </div>
     </div>
@@ -120,11 +132,11 @@ foreseeing their use in a variety of applications in the digital humanities.
     <!-- method -->
     <div class="row">
       <div class="col-md-12 col-sm-12 col-xs-12">
-        <p class="h4 font-weight-bold title">How does it works?</p>
+        <p class="h4 font-weight-bold title" style="text-align: center;">How does it work?</p>
         <p>
 		  Our method is based on optimization and does not require an alignment dataset. 
-		  We levarage diffusion features, extracted from a fine-tuned stable diffusion model to compute meaningful similarity scores
-		  between each two pixels in the prototype and target images. We then strore those simiarities in a 4D similarity volume.
+		  We leverage diffusion features, extracted from a fine-tuned stable diffusion model to compute meaningful similarity scores
+		  between each two pixels in the prototype and target images. We then store those similarities in a 4D similarity volume.
         </p>
 
         <div class="row justify-content-center">
@@ -136,7 +148,7 @@ foreseeing their use in a variety of applications in the digital humanities.
 		  which are mutual nearest-neighbors according to their similarities scores. The correspondences than used to fit an affine transformation
 		  defining a global alignment of the prototype to the target image.
 		  <br>
-		  The similarities than used again for a per-stroke local refinment, to allow each stroke to "snap" into place. The refinment is done by
+		  The similarities than used again for a per-stroke local refinement, to allow each stroke to "snap" into place. The refinement is done by
 		  optimizing a per-stroke transformation, via gradient descent. 
         </p>
 			<div class="row justify-content-center">
@@ -150,10 +162,10 @@ foreseeing their use in a variety of applications in the digital humanities.
     <!-- viz -->
     <div class="row">
       <div class="col-md-12 col-sm-12 col-xs-12">
-        <p class="h4 font-weight-bold title">Evaluation</p>
+        <p class="h4 font-weight-bold title" style="text-align: center;">Evaluation</p>
         <p>
-		  We proose <a href="https://github.com/TAU-VAILab/ProtoSnap/tree/main/test_set">test set</a> - 272 cuneiform signs, annotated by experts.
-		  We use this dataset to numericaly evaluate our method. 
+		  We propose <a href="https://github.com/TAU-VAILab/ProtoSnap/tree/main/test_set">test set</a> - 272 cuneiform signs, annotated by experts.
+		  We use this dataset to numerically evaluate our method.
         </p>
         <div class="row justify-content-center">
             <img src="repo_images/numeric_evaluation.png" width="500">
@@ -165,19 +177,19 @@ foreseeing their use in a variety of applications in the digital humanities.
     <!-- viz -->
     <div class="row">
       <div class="col-md-12 col-sm-12 col-xs-12">
-        <p class="h4 font-weight-bold title">Improving OCR</p>
+        <p class="h4 font-weight-bold title" style="text-align: center;">Improving OCR</p>
         <p>
-		  We levaraged our method to create a dataset of paired cunieform signs and aligned skeletons, and used it to fine-tune 
+		  We leveraged our method to create a dataset of paired cuneiform signs and aligned skeletons, and used it to fine-tune
 		  <a>ControlNet</a>, which can generate new cuneiform signs, based only on a prototype.
 		  We used this model to generate a synthetic training data, which was added to a real dataset for learning cuneiform sign classification.
-		  We show that using by structurally controling the generated signs, we improve the classification, even more than just by adding
+		  We show that using by structurally controlling the generated signs, we improve the classification, even more than just by adding
 		  synthetic data (generated by using a fine-tuned Stable Diffusion). 
         </p>
 		<div class="row justify-content-center">
             <img src="repo_images/ocr_stats.png" width="600">
         </div>
 		<p>
-		By controling the sign structure, we can generate the exact required sign, matching the correct era and variant. This is compared to signs
+		By controlling the sign structure, we can generate the exact required sign, matching the correct era and variant. This is compared to signs
 		generated using Stable Diffusion, where there is no such conditioning.
 		</p>
 		<div class="row justify-content-center">
@@ -191,13 +203,19 @@ foreseeing their use in a variety of applications in the digital humanities.
     <div>
       <div class="row">
         <div class='col-md-12 col-sm-12 col-xs-12'>
-          <p class='h4 font-weight-bold title'>Acknowledgements</p>
+          <p class='h4 font-weight-bold title' style="text-align: center;">Acknowledgements</p>
           <p class="ack">
-            The method and the test set were devolped using the 
-			<a href=https://github.com/ElectronicBabylonianLiterature/cuneiform-ocr-data>cunieform OCR dataset</a>. 
+            The method and the test set were developed using the
+			<a href=https://github.com/ElectronicBabylonianLiterature/cuneiform-ocr-data>cuneiform OCR dataset</a>.
 			The photographs of tablets are from the 
 			<a href=https://www.britishmuseum.org/collection>British Museum Digital Collections.</a>
-			The code implementation uses code form the official repository of <a href=https://github.com/Tsingularity/dift>DIFT</a>
+          </p>
+          <p class="ack">
+			The code implementation uses code form the official repository of <a href=https://github.com/Tsingularity/dift>DIFT.</a>
+          </p>
+          <p class="ack">
+           This research was funded by <a href=https://datascience.tau.ac.il/>TAU Center for Artificial Intelligence & Data Science (TAD)</a>
+              and by <a href="https://www.lmu.de/en/about-lmu/international-network/lmu-tau-research-cooperation-program/">LMU-TAU Research Cooperation Program.</a>
           </p>
         </div>
       </div>
@@ -207,7 +225,7 @@ foreseeing their use in a variety of applications in the digital humanities.
     <!-- citation -->
     <div class="row">
       <div class="col-md-12 col-sm-12 col-xs-12">
-        <p class="h4 font-weight-bold title">Citation</p>
+        <p class="h4 font-weight-bold title" style="text-align: center;">Citation</p>
         <pre><code>...</code></pre>
       </div>
     </div>
