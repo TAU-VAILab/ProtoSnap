@@ -9,7 +9,7 @@
 [Yoram Cohen](https://english.tau.ac.il/profile/ycohen1)<sup>1</sup>,
 [Hadar Averbuch-Elor](https://www.hadarelor.com/)<sup>1,4</sup>
 
-*<sup>1</sup>[Tel Aviv University](https://english.tau.ac.il/), <sup>2</sup>[Ariel University](https://cris.ariel.ac.il/en/), <sup>3</sup>[LMU](https://www.lmu.de/en/), <sup>4</sup>[Cornell University](https://www.cornell.edu/)
+<sup>1</sup>[Tel Aviv University](https://english.tau.ac.il/), <sup>2</sup>[Ariel University](https://cris.ariel.ac.il/en/), <sup>3</sup>[LMU](https://www.lmu.de/en/), <sup>4</sup>[Cornell University](https://www.cornell.edu/)
 *Equal Contribution
 
 This is the official implementation of ProtoSnap, a method for aligning a cuneiform prototype and a corresponding sign image. ICLR 2025
