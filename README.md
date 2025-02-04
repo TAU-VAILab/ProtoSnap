@@ -1,6 +1,6 @@
 # ProtoSnap
 
-**[project page]() | [paper]()**
+**[project page](https://tau-vailab.github.io/ProtoSnap/) | [paper](https://arxiv.org/abs/2502.00129)**
 
 [Rachel Mikulinsky*](https://www.linkedin.com/in/rachel-mikulinsky-3a099411b/)<sup>1</sup>, 
 [Morris Alper*](https://morrisalp.github.io/)<sup>1</sup>, 
@@ -80,4 +80,13 @@ Arguments:
 
 ## Citation
 If you find this project useful, you may cite us as follows:
-...
+```
+@misc{mikulinsky2025protosnapprototypealignmentcuneiform,
+      title={ProtoSnap: Prototype Alignment for Cuneiform Signs}, 
+      author={Rachel Mikulinsky and Morris Alper and Shai Gordin and Enrique Jiménez and Yoram Cohen and Hadar Averbuch-Elor},
+      year={2025},
+      eprint={2502.00129},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2502.00129}, 
+```
