@@ -82,12 +82,12 @@ Arguments:
 ## Citation
 If you find this project useful, you may cite us as follows:
 ```
-@misc{mikulinsky2025protosnapprototypealignmentcuneiform,
-      title={ProtoSnap: Prototype Alignment for Cuneiform Signs}, 
-      author={Rachel Mikulinsky and Morris Alper and Shai Gordin and Enrique Jiménez and Yoram Cohen and Hadar Averbuch-Elor},
+@inproceedings{
+      mikulinsky2025protosnap,
+      title={ProtoSnap: Prototype Alignment For Cuneiform Signs},
+      author={Rachel Mikulinsky and Morris Alper and Shai Gordin and Enrique Jim{\'e}nez and Yoram Cohen and Hadar Averbuch-Elor},
+      booktitle={The Thirteenth International Conference on Learning Representations},
       year={2025},
-      eprint={2502.00129},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV},
-      url={https://arxiv.org/abs/2502.00129}, 
+      url={https://openreview.net/forum?id=XHTirKsQV6}
+}
 ```
