@@ -75,6 +75,7 @@ Arguments:
 * ```--output_path``` The results will be saved under ```<output_path>/<sign_name>/images```. The controls used for generation will be saved under ```<output_path>/<sign_name>/controls```]
 
 ## Acknowledgments
+* This research was funded by [TAU Center for Artificial Intelligence & Data Science (TAD)](https://datascience.tau.ac.il/) and by [LMU-TAU Research Cooperation Program](https://www.lmu.de/en/about-lmu/international-network/lmu-tau-research-cooperation-program/).
 * The method and the test set were devolped using the [cunieform OCR dataset](https://github.com/ElectronicBabylonianLiterature/cuneiform-ocr-data). The photographs of tablets are from the [British Museum Digital Collections](https://www.britishmuseum.org/collection).
 * This implementation uses code form the official repository of [DIFT](https://github.com/Tsingularity/dift)
 
