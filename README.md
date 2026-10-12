@@ -16,10 +16,10 @@ This is the official implementation of ProtoSnap, a method for aligning a cuneif
 
 ![](repo_images/teaser.png?raw=true)
 
-Given a target image of a cuneiform sign, and a correspoiding prototype with annotated skeleton, we align the skeletong with the target image.
+Given a target image of a cuneiform sign, and a corresponding prototype with annotated skeleton, we align the skeleton with the target image.
 To this aim, we use diffusion features, extracted from a fine-tuned stable diffusion model.
 <br>
-We used this method to train ControlNet, to generate new a diverse cuneiform signs, based only on a prototype. Weights for the ControlNet are available here.
+We used this method to train ControlNet to generate new and diverse cuneiform signs based only on a prototype. Weights for the ControlNet are included in the weights download (see Installation).
 
 ## Installation
 
@@ -44,8 +44,8 @@ python main.py <prompt> --target_image_path <path_to_image_dir>
 
 Arguments:
 * ```prompt``` The name of the sign (such as A, AN, MA, etc.), used as prompt to the SD model
-* ```--target_image_path``` The directory path where the targe image is located. The image name should be ```<prompt>.png```. By defualt - ```target_images```
-* ```--font_dir``` The directory with available prototypes. By default - ```prototypes/Santakku```, corresponding to Old Babylonian era. The font Assurbanipal for the Neo-Assyrian era avaliable as well in this repo
+* ```--target_image_path``` The directory path where the target image is located. The image name should be ```<prompt>.png```. By default - ```target_images```
+* ```--font_dir``` The directory with available prototypes. By default - ```prototypes/Santakku```, corresponding to Old Babylonian era. The font Assurbanipal for the Neo-Assyrian era available as well in this repo
 * ```--con_dir``` The directory with annotated skeletons. By default - ```skeletons/Santakku```, skeletons for Assurbanipal font available as well.
 * ```--output_folder``` None by default. If not None, the results will be saved under ```output/<output_folder>```, else directly under ```output```
 
@@ -62,22 +62,26 @@ Arguments:
 
 ### Generate images with ControlNet
 
-To generate images using our fine-tunes ControlNet:
+To generate images using our fine-tuned ControlNet:
 ```bash
 python gen_images_with_cn.py <sign_name> --num_of_samples <num_of_samples>
 ```
-The script generats controls, by using available skeletons, and applying small agumentations on each stroke, to create diversity.
+The script generates controls, by using available skeletons, and applying small augmentations on each stroke, to create diversity.
 Then each control is used to generate an image, using ControlNet.
 
 Arguments:
 * ```sign_name``` The name of the sign to generate (such as A, AN, MA, etc.)
 * ```--num_of_samples``` Number of samples to generate. 50 by default
-* ```--output_path``` The results will be saved under ```<output_path>/<sign_name>/images```. The controls used for generation will be saved under ```<output_path>/<sign_name>/controls```]
+* ```--output_path``` The results will be saved under ```<output_path>/<sign_name>/images```. The controls used for generation will be saved under ```<output_path>/<sign_name>/controls```
+
+### Sign classification experiment
+
+Data splits, training details and reference predictions for the sign classification experiment (Table 2 in the paper) are in [`classification/`](classification/).
 
 ## Acknowledgments
 * This research was funded by [TAU Center for Artificial Intelligence & Data Science (TAD)](https://datascience.tau.ac.il/) and by [LMU-TAU Research Cooperation Program](https://www.lmu.de/en/about-lmu/international-network/lmu-tau-research-cooperation-program/).
-* The method and the test set were devolped using the [cunieform OCR dataset](https://github.com/ElectronicBabylonianLiterature/cuneiform-ocr-data). The photographs of tablets are from the [British Museum Digital Collections](https://www.britishmuseum.org/collection).
-* This implementation uses code form the official repository of [DIFT](https://github.com/Tsingularity/dift)
+* The method and the test set were developed using the [cuneiform OCR dataset](https://github.com/ElectronicBabylonianLiterature/cuneiform-ocr-data). The photographs of tablets are from the [British Museum Digital Collections](https://www.britishmuseum.org/collection).
+* This implementation uses code from the official repository of [DIFT](https://github.com/Tsingularity/dift)
 
 ## Citation
 If you find this project useful, you may cite us as follows:
